@@ -1,0 +1,2691 @@
+Arquivo: p0001.dxf
+	Perímetro Total: 1608.18 unidades
+	Detalhamento por Layer:
+		- Layer 2: 141.76
+		- Layer 1: 1466.42
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1608.18
+-------------------------------------------------------
+Arquivo: p0002.dxf
+	Perímetro Total: 805.01 unidades
+	Detalhamento por Layer:
+		- Layer 1: 545.01
+		- Layer 2: 260.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 805.01
+-------------------------------------------------------
+Arquivo: p0003.dxf
+	Perímetro Total: 892.40 unidades
+	Detalhamento por Layer:
+		- Layer 1: 892.40
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 892.40
+-------------------------------------------------------
+Arquivo: p0004.dxf
+	Perímetro Total: 570.88 unidades
+	Detalhamento por Layer:
+		- Layer 1: 570.88
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 570.88
+-------------------------------------------------------
+Arquivo: p0005.dxf
+	Perímetro Total: 1011.96 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1011.96
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1011.96
+-------------------------------------------------------
+Arquivo: p0006.dxf
+	Perímetro Total: 6063.00 unidades
+	Detalhamento por Layer:
+		- Layer 2: 2326.00
+		- Layer 1: 3737.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 6063.00
+-------------------------------------------------------
+Arquivo: p0007.dxf
+	Perímetro Total: 2582.18 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2582.18
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2582.18
+-------------------------------------------------------
+Arquivo: p0008.dxf
+	Perímetro Total: 1551.30 unidades
+	Detalhamento por Layer:
+		- Layer 2: 175.00
+		- Layer 1: 1376.30
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1551.30
+-------------------------------------------------------
+Arquivo: p0009.dxf
+	Perímetro Total: 1413.56 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1413.56
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1413.56
+-------------------------------------------------------
+Arquivo: p0010.dxf
+	Perímetro Total: 858.29 unidades
+	Detalhamento por Layer:
+		- Layer 2: 40.00
+		- Layer 1: 818.29
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 858.29
+-------------------------------------------------------
+Arquivo: p0011.dxf
+	Perímetro Total: 1044.99 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1044.99
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1044.99
+-------------------------------------------------------
+Arquivo: p0012.dxf
+	Perímetro Total: 573.68 unidades
+	Detalhamento por Layer:
+		- Layer 1: 573.68
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 573.68
+-------------------------------------------------------
+Arquivo: p0013.dxf
+	Perímetro Total: 680.70 unidades
+	Detalhamento por Layer:
+		- Layer 1: 680.70
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 680.70
+-------------------------------------------------------
+Arquivo: p0014.dxf
+	Perímetro Total: 5025.30 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4341.30
+		- Layer 2: 684.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 5025.30
+-------------------------------------------------------
+Arquivo: p0015.dxf
+	Perímetro Total: 3028.96 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2288.16
+		- Layer 2: 740.80
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3028.96
+-------------------------------------------------------
+Arquivo: p0016.dxf
+	Perímetro Total: 1114.12 unidades
+	Detalhamento por Layer:
+		- Layer 0: 1114.12
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1114.12
+-------------------------------------------------------
+Arquivo: p0017.dxf
+	Perímetro Total: 4234.84 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2893.84
+		- Layer 2: 1341.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4234.84
+-------------------------------------------------------
+Arquivo: p0018.dxf
+	Perímetro Total: 1656.31 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1656.31
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1656.31
+-------------------------------------------------------
+Arquivo: p0019.dxf
+	Perímetro Total: 696.87 unidades
+	Detalhamento por Layer:
+		- Layer 1: 696.87
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 696.87
+-------------------------------------------------------
+Arquivo: p0020.dxf
+	Perímetro Total: 12697.69 unidades
+	Detalhamento por Layer:
+		- Layer 2: 7409.27
+		- Layer 1: 5288.42
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 12697.69
+-------------------------------------------------------
+Arquivo: p0021.dxf
+	Perímetro Total: 834.92 unidades
+	Detalhamento por Layer:
+		- Layer 1: 640.13
+		- Layer 2: 194.79
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 834.92
+-------------------------------------------------------
+Arquivo: p0022.dxf
+	Perímetro Total: 153.07 unidades
+	Detalhamento por Layer:
+		- Layer 1: 153.07
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 153.07
+-------------------------------------------------------
+Arquivo: p0023.dxf
+	Perímetro Total: 817.59 unidades
+	Detalhamento por Layer:
+		- Layer 1: 657.59
+		- Layer 2: 160.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 817.59
+-------------------------------------------------------
+Arquivo: p0024.dxf
+	Perímetro Total: 463.36 unidades
+	Detalhamento por Layer:
+		- Layer 1: 415.36
+		- Layer 2: 48.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 463.36
+-------------------------------------------------------
+Arquivo: p0025.dxf
+	Perímetro Total: 555.08 unidades
+	Detalhamento por Layer:
+		- Layer 0: 555.08
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 555.08
+-------------------------------------------------------
+Arquivo: p0026.dxf
+	Perímetro Total: 123.33 unidades
+	Detalhamento por Layer:
+		- Layer 1: 123.33
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 123.33
+-------------------------------------------------------
+Arquivo: p0027.dxf
+	Perímetro Total: 343.18 unidades
+	Detalhamento por Layer:
+		- Layer 2: 56.14
+		- Layer 1: 287.04
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 343.18
+-------------------------------------------------------
+Arquivo: p0028.dxf
+	Perímetro Total: 360.33 unidades
+	Detalhamento por Layer:
+		- Layer 1: 360.33
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 360.33
+-------------------------------------------------------
+Arquivo: p0029.dxf
+	Perímetro Total: 623.65 unidades
+	Detalhamento por Layer:
+		- Layer 1: 623.65
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 623.65
+-------------------------------------------------------
+Arquivo: p0030.dxf
+	Perímetro Total: 1722.58 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1602.58
+		- Layer 2: 120.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1722.58
+-------------------------------------------------------
+Arquivo: p0031.dxf
+	Perímetro Total: 155.98 unidades
+	Detalhamento por Layer:
+		- Layer 1: 155.98
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 155.98
+-------------------------------------------------------
+Arquivo: p0032.dxf
+	Perímetro Total: 89.96 unidades
+	Detalhamento por Layer:
+		- Layer 1: 89.96
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 89.96
+-------------------------------------------------------
+Arquivo: p0033.dxf
+	Perímetro Total: 757.66 unidades
+	Detalhamento por Layer:
+		- Layer 1: 757.66
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 757.66
+-------------------------------------------------------
+Arquivo: p0034.dxf
+	Perímetro Total: 3163.52 unidades
+	Detalhamento por Layer:
+		- Layer 1: 3163.52
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3163.52
+-------------------------------------------------------
+Arquivo: p0035.dxf
+	Perímetro Total: 5539.77 unidades
+	Detalhamento por Layer:
+		- Layer 2: 2779.27
+		- Layer 1: 2760.50
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 5539.77
+-------------------------------------------------------
+Arquivo: p0036.dxf
+	Perímetro Total: 212.17 unidades
+	Detalhamento por Layer:
+		- Layer 1: 212.17
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 212.17
+-------------------------------------------------------
+Arquivo: p0037.dxf
+	Perímetro Total: 776.87 unidades
+	Detalhamento por Layer:
+		- Layer 1: 576.87
+		- Layer 2: 200.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 776.87
+-------------------------------------------------------
+Arquivo: p0038.dxf
+	Perímetro Total: 3623.51 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2523.51
+		- Layer 2: 1100.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3623.51
+-------------------------------------------------------
+Arquivo: p0039.dxf
+	Perímetro Total: 668.28 unidades
+	Detalhamento por Layer:
+		- Layer 1: 668.28
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 668.28
+-------------------------------------------------------
+Arquivo: p0040.dxf
+	Perímetro Total: 2774.91 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2774.91
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2774.91
+-------------------------------------------------------
+Arquivo: p0041.dxf
+	Perímetro Total: 651.89 unidades
+	Detalhamento por Layer:
+		- Layer 2: 63.00
+		- Layer 1: 588.89
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 651.89
+-------------------------------------------------------
+Arquivo: p0042.dxf
+	Perímetro Total: 2354.22 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2354.22
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2354.22
+-------------------------------------------------------
+Arquivo: p0043.dxf
+	Perímetro Total: 3861.46 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2796.46
+		- Layer 2: 1065.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3861.46
+-------------------------------------------------------
+Arquivo: p0044.dxf
+	Perímetro Total: 5813.21 unidades
+	Detalhamento por Layer:
+		- Layer 1: 5518.21
+		- Layer 2: 295.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 5813.21
+-------------------------------------------------------
+Arquivo: p0045.dxf
+	Perímetro Total: 749.95 unidades
+	Detalhamento por Layer:
+		- Layer 1: 749.95
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 749.95
+-------------------------------------------------------
+Arquivo: p0046.dxf
+	Perímetro Total: 794.29 unidades
+	Detalhamento por Layer:
+		- Layer 1: 794.29
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 794.29
+-------------------------------------------------------
+Arquivo: p0047.dxf
+	Perímetro Total: 10709.92 unidades
+	Detalhamento por Layer:
+		- Layer 2: 8917.46
+		- Layer 1: 1792.46
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 10709.92
+-------------------------------------------------------
+Arquivo: p0048.dxf
+	Perímetro Total: 716.44 unidades
+	Detalhamento por Layer:
+		- Layer 1: 716.44
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 716.44
+-------------------------------------------------------
+Arquivo: p0049.dxf
+	Perímetro Total: 202.24 unidades
+	Detalhamento por Layer:
+		- Layer 1: 202.24
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 202.24
+-------------------------------------------------------
+Arquivo: p0050.dxf
+	Perímetro Total: 1012.81 unidades
+	Detalhamento por Layer:
+		- Layer 2: 316.00
+		- Layer 1: 696.81
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1012.81
+-------------------------------------------------------
+Arquivo: p0051.dxf
+	Perímetro Total: 546.50 unidades
+	Detalhamento por Layer:
+		- Layer 1: 446.50
+		- Layer 2: 100.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 546.50
+-------------------------------------------------------
+Arquivo: p0052.dxf
+	Perímetro Total: 804.27 unidades
+	Detalhamento por Layer:
+		- Layer 1: 804.27
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 804.27
+-------------------------------------------------------
+Arquivo: p0053.dxf
+	Perímetro Total: 227.04 unidades
+	Detalhamento por Layer:
+		- Layer 1: 227.04
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 227.04
+-------------------------------------------------------
+Arquivo: p0054.dxf
+	Perímetro Total: 560.55 unidades
+	Detalhamento por Layer:
+		- Layer 1: 560.55
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 560.55
+-------------------------------------------------------
+Arquivo: p0055.dxf
+	Perímetro Total: 3616.48 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2516.48
+		- Layer 2: 1100.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3616.48
+-------------------------------------------------------
+Arquivo: p0056.dxf
+	Perímetro Total: 767.21 unidades
+	Detalhamento por Layer:
+		- Layer 1: 572.42
+		- Layer 2: 194.79
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 767.21
+-------------------------------------------------------
+Arquivo: p0057.dxf
+	Perímetro Total: 3642.07 unidades
+	Detalhamento por Layer:
+		- Layer 1: 3642.07
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3642.07
+-------------------------------------------------------
+Arquivo: p0058.dxf
+	Perímetro Total: 402.22 unidades
+	Detalhamento por Layer:
+		- Layer 1: 402.22
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 402.22
+-------------------------------------------------------
+Arquivo: p0059.dxf
+	Perímetro Total: 1551.30 unidades
+	Detalhamento por Layer:
+		- Layer 2: 175.00
+		- Layer 1: 1376.30
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1551.30
+-------------------------------------------------------
+Arquivo: p0060.dxf
+	Perímetro Total: 869.12 unidades
+	Detalhamento por Layer:
+		- Layer 1: 835.62
+		- Layer 2: 33.50
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 869.12
+-------------------------------------------------------
+Arquivo: p0061.dxf
+	Perímetro Total: 890.87 unidades
+	Detalhamento por Layer:
+		- Layer 1: 890.87
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 890.87
+-------------------------------------------------------
+Arquivo: p0062.dxf
+	Perímetro Total: 2551.69 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2551.69
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2551.69
+-------------------------------------------------------
+Arquivo: p0063.dxf
+	Perímetro Total: 3179.81 unidades
+	Detalhamento por Layer:
+		- Layer 1: 3179.81
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3179.81
+-------------------------------------------------------
+Arquivo: p0064.dxf
+	Perímetro Total: 297.40 unidades
+	Detalhamento por Layer:
+		- Layer 1: 297.40
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 297.40
+-------------------------------------------------------
+Arquivo: p0065.dxf
+	Perímetro Total: 954.51 unidades
+	Detalhamento por Layer:
+		- Layer 1: 904.51
+		- Layer 2: 50.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 954.51
+-------------------------------------------------------
+Arquivo: p0066.dxf
+	Perímetro Total: 4532.46 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4532.46
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4532.46
+-------------------------------------------------------
+Arquivo: p0067.dxf
+	Perímetro Total: 214.73 unidades
+	Detalhamento por Layer:
+		- Layer 1: 214.73
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 214.73
+-------------------------------------------------------
+Arquivo: p0068.dxf
+	Perímetro Total: 303.34 unidades
+	Detalhamento por Layer:
+		- Layer 0: 303.34
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 303.34
+-------------------------------------------------------
+Arquivo: p0069.dxf
+	Perímetro Total: 871.14 unidades
+	Detalhamento por Layer:
+		- Layer 1: 801.14
+		- Layer 2: 70.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 871.14
+-------------------------------------------------------
+Arquivo: p0070.dxf
+	Perímetro Total: 7720.20 unidades
+	Detalhamento por Layer:
+		- Layer 1: 7720.20
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 7720.20
+-------------------------------------------------------
+Arquivo: p0071.dxf
+	Perímetro Total: 1105.66 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1105.66
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1105.66
+-------------------------------------------------------
+Arquivo: p0072.dxf
+	Perímetro Total: 2659.05 unidades
+	Detalhamento por Layer:
+		- Layer 2: 250.00
+		- Layer 1: 2409.05
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2659.05
+-------------------------------------------------------
+Arquivo: p0073.dxf
+	Perímetro Total: 339.08 unidades
+	Detalhamento por Layer:
+		- Layer 1: 339.08
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 339.08
+-------------------------------------------------------
+Arquivo: p0074.dxf
+	Perímetro Total: 783.36 unidades
+	Detalhamento por Layer:
+		- Layer 1: 783.36
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 783.36
+-------------------------------------------------------
+Arquivo: p0075.dxf
+	Perímetro Total: 8563.37 unidades
+	Detalhamento por Layer:
+		- Layer 2: 1955.70
+		- Layer 1: 6607.67
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 8563.37
+-------------------------------------------------------
+Arquivo: p0076.dxf
+	Perímetro Total: 242.90 unidades
+	Detalhamento por Layer:
+		- Layer 1: 242.90
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 242.90
+-------------------------------------------------------
+Arquivo: p0077.dxf
+	Perímetro Total: 361.80 unidades
+	Detalhamento por Layer:
+		- Layer 2: 48.12
+		- Layer 1: 313.68
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 361.80
+-------------------------------------------------------
+Arquivo: p0078.dxf
+	Perímetro Total: 338.73 unidades
+	Detalhamento por Layer:
+		- Layer 1: 303.73
+		- Layer 2: 35.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 338.73
+-------------------------------------------------------
+Arquivo: p0079.dxf
+	Perímetro Total: 2664.54 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2664.54
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2664.54
+-------------------------------------------------------
+Arquivo: p0080.dxf
+	Perímetro Total: 7028.41 unidades
+	Detalhamento por Layer:
+		- Layer 1: 5838.41
+		- Layer 2: 1190.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 7028.41
+-------------------------------------------------------
+Arquivo: p0081.dxf
+	Perímetro Total: 101.54 unidades
+	Detalhamento por Layer:
+		- Layer 1: 101.54
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 101.54
+-------------------------------------------------------
+Arquivo: p0082.dxf
+	Perímetro Total: 178.41 unidades
+	Detalhamento por Layer:
+		- Layer 1: 178.41
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 178.41
+-------------------------------------------------------
+Arquivo: p0083.dxf
+	Perímetro Total: 1031.62 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1031.62
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1031.62
+-------------------------------------------------------
+Arquivo: p0084.dxf
+	Perímetro Total: 3019.57 unidades
+	Detalhamento por Layer:
+		- Layer 1: 3019.57
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3019.57
+-------------------------------------------------------
+Arquivo: p0085.dxf
+	Perímetro Total: 200.70 unidades
+	Detalhamento por Layer:
+		- Layer 1: 200.70
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 200.70
+-------------------------------------------------------
+Arquivo: p0086.dxf
+	Perímetro Total: 405.82 unidades
+	Detalhamento por Layer:
+		- Layer 1: 388.82
+		- Layer 2: 17.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 405.82
+-------------------------------------------------------
+Arquivo: p0087.dxf
+	Perímetro Total: 1306.56 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1306.56
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1306.56
+-------------------------------------------------------
+Arquivo: p0088.dxf
+	Perímetro Total: 376.39 unidades
+	Detalhamento por Layer:
+		- Layer 1: 376.39
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 376.39
+-------------------------------------------------------
+Arquivo: p0089.dxf
+	Perímetro Total: 3089.26 unidades
+	Detalhamento por Layer:
+		- Layer 2: 854.00
+		- Layer 1: 2235.26
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3089.26
+-------------------------------------------------------
+Arquivo: p0090.dxf
+	Perímetro Total: 4365.78 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2605.78
+		- Layer 2: 1760.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4365.78
+-------------------------------------------------------
+Arquivo: p0091.dxf
+	Perímetro Total: 543.93 unidades
+	Detalhamento por Layer:
+		- Layer 2: 44.00
+		- Layer 1: 499.93
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 543.93
+-------------------------------------------------------
+Arquivo: p0092.dxf
+	Perímetro Total: 213.54 unidades
+	Detalhamento por Layer:
+		- Layer 1: 213.54
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 213.54
+-------------------------------------------------------
+Arquivo: p0093.dxf
+	Perímetro Total: 1477.91 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1477.91
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1477.91
+-------------------------------------------------------
+Arquivo: p0094.dxf
+	Perímetro Total: 270.94 unidades
+	Detalhamento por Layer:
+		- Layer 1: 270.94
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 270.94
+-------------------------------------------------------
+Arquivo: p0095.dxf
+	Perímetro Total: 856.42 unidades
+	Detalhamento por Layer:
+		- Layer 1: 856.42
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 856.42
+-------------------------------------------------------
+Arquivo: p0096.dxf
+	Perímetro Total: 882.58 unidades
+	Detalhamento por Layer:
+		- Layer 1: 831.58
+		- Layer 2: 51.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 882.58
+-------------------------------------------------------
+Arquivo: p0097.dxf
+	Perímetro Total: 343.18 unidades
+	Detalhamento por Layer:
+		- Layer 2: 56.14
+		- Layer 1: 287.04
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 343.18
+-------------------------------------------------------
+Arquivo: p0098.dxf
+	Perímetro Total: 543.93 unidades
+	Detalhamento por Layer:
+		- Layer 2: 44.00
+		- Layer 1: 499.93
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 543.93
+-------------------------------------------------------
+Arquivo: p0099.dxf
+	Perímetro Total: 559.63 unidades
+	Detalhamento por Layer:
+		- Layer 1: 559.63
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 559.63
+-------------------------------------------------------
+Arquivo: p0100.dxf
+	Perímetro Total: 204.01 unidades
+	Detalhamento por Layer:
+		- Layer 1: 204.01
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 204.01
+-------------------------------------------------------
+Arquivo: p0101.dxf
+	Perímetro Total: 323.22 unidades
+	Detalhamento por Layer:
+		- Layer 1: 323.22
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 323.22
+-------------------------------------------------------
+Arquivo: p0102.dxf
+	Perímetro Total: 1635.51 unidades
+	Detalhamento por Layer:
+		- Layer 2: 287.70
+		- Layer 1: 1347.81
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1635.51
+-------------------------------------------------------
+Arquivo: p0103.dxf
+	Perímetro Total: 2293.84 unidades
+	Detalhamento por Layer:
+		- Layer 2: 588.28
+		- Layer 1: 1705.56
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2293.84
+-------------------------------------------------------
+Arquivo: p0104.dxf
+	Perímetro Total: 919.24 unidades
+	Detalhamento por Layer:
+		- Layer 1: 919.24
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 919.24
+-------------------------------------------------------
+Arquivo: p0105.dxf
+	Perímetro Total: 409.41 unidades
+	Detalhamento por Layer:
+		- Layer 1: 409.41
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 409.41
+-------------------------------------------------------
+Arquivo: p0106.dxf
+	Perímetro Total: 606.06 unidades
+	Detalhamento por Layer:
+		- Layer 1: 556.06
+		- Layer 2: 50.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 606.06
+-------------------------------------------------------
+Arquivo: p0107.dxf
+	Perímetro Total: 8364.30 unidades
+	Detalhamento por Layer:
+		- Layer 1: 6663.08
+		- Layer 2: 1701.22
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 8364.30
+-------------------------------------------------------
+Arquivo: p0108.dxf
+	Perímetro Total: 2867.20 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2867.20
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2867.20
+-------------------------------------------------------
+Arquivo: p0109.dxf
+	Perímetro Total: 390.30 unidades
+	Detalhamento por Layer:
+		- Layer 2: 34.38
+		- Layer 1: 355.92
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 390.30
+-------------------------------------------------------
+Arquivo: p0110.dxf
+	Perímetro Total: 4416.07 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4416.07
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4416.07
+-------------------------------------------------------
+Arquivo: p0111.dxf
+	Perímetro Total: 270.19 unidades
+	Detalhamento por Layer:
+		- Layer 1: 270.19
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 270.19
+-------------------------------------------------------
+Arquivo: p0112.dxf
+	Perímetro Total: 274.63 unidades
+	Detalhamento por Layer:
+		- Layer 1: 274.63
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 274.63
+-------------------------------------------------------
+Arquivo: p0113.dxf
+	Perímetro Total: 416.86 unidades
+	Detalhamento por Layer:
+		- Layer 1: 356.86
+		- Layer 2: 60.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 416.86
+-------------------------------------------------------
+Arquivo: p0114.dxf
+	Perímetro Total: 651.78 unidades
+	Detalhamento por Layer:
+		- Layer 1: 559.58
+		- Layer 2: 92.20
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 651.78
+-------------------------------------------------------
+Arquivo: p0115.dxf
+	Perímetro Total: 702.49 unidades
+	Detalhamento por Layer:
+		- Layer 1: 702.49
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 702.49
+-------------------------------------------------------
+Arquivo: p0116.dxf
+	Perímetro Total: 2761.62 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2761.62
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2761.62
+-------------------------------------------------------
+Arquivo: p0117.dxf
+	Perímetro Total: 1663.30 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1663.30
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1663.30
+-------------------------------------------------------
+Arquivo: p0118.dxf
+	Perímetro Total: 884.05 unidades
+	Detalhamento por Layer:
+		- Layer 2: 30.00
+		- Layer 1: 854.05
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 884.05
+-------------------------------------------------------
+Arquivo: p0119.dxf
+	Perímetro Total: 333.00 unidades
+	Detalhamento por Layer:
+		- Layer 1: 333.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 333.00
+-------------------------------------------------------
+Arquivo: p0120.dxf
+	Perímetro Total: 4713.86 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4617.86
+		- Layer 2: 96.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4713.86
+-------------------------------------------------------
+Arquivo: p0121.dxf
+	Perímetro Total: 393.60 unidades
+	Detalhamento por Layer:
+		- Layer 1: 393.60
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 393.60
+-------------------------------------------------------
+Arquivo: p0122.dxf
+	Perímetro Total: 871.27 unidades
+	Detalhamento por Layer:
+		- Layer 1: 871.27
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 871.27
+-------------------------------------------------------
+Arquivo: p0123.dxf
+	Perímetro Total: 5817.98 unidades
+	Detalhamento por Layer:
+		- Layer 1: 5657.98
+		- Layer 2: 160.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 5817.98
+-------------------------------------------------------
+Arquivo: p0124.dxf
+	Perímetro Total: 1080.98 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1080.98
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1080.98
+-------------------------------------------------------
+Arquivo: p0125.dxf
+	Perímetro Total: 229.96 unidades
+	Detalhamento por Layer:
+		- Layer 1: 229.96
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 229.96
+-------------------------------------------------------
+Arquivo: p0126.dxf
+	Perímetro Total: 3615.65 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2515.65
+		- Layer 2: 1100.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3615.65
+-------------------------------------------------------
+Arquivo: p0127.dxf
+	Perímetro Total: 1254.02 unidades
+	Detalhamento por Layer:
+		- Layer 2: 837.95
+		- Layer 1: 416.07
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1254.02
+-------------------------------------------------------
+Arquivo: p0128.dxf
+	Perímetro Total: 1149.89 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1149.89
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1149.89
+-------------------------------------------------------
+Arquivo: p0129.dxf
+	Perímetro Total: 6706.84 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4436.84
+		- Layer 2: 2270.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 6706.84
+-------------------------------------------------------
+Arquivo: p0130.dxf
+	Perímetro Total: 1638.60 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1638.60
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1638.60
+-------------------------------------------------------
+Arquivo: p0131.dxf
+	Perímetro Total: 367.98 unidades
+	Detalhamento por Layer:
+		- Layer 1: 367.98
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 367.98
+-------------------------------------------------------
+Arquivo: p0132.dxf
+	Perímetro Total: 1591.49 unidades
+	Detalhamento por Layer:
+		- Layer 2: 1117.54
+		- Layer 1: 473.95
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1591.49
+-------------------------------------------------------
+Arquivo: p0133.dxf
+	Perímetro Total: 1428.37 unidades
+	Detalhamento por Layer:
+		- Layer 2: 115.29
+		- Layer 1: 1313.08
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1428.37
+-------------------------------------------------------
+Arquivo: p0134.dxf
+	Perímetro Total: 869.12 unidades
+	Detalhamento por Layer:
+		- Layer 1: 835.62
+		- Layer 2: 33.50
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 869.12
+-------------------------------------------------------
+Arquivo: p0135.dxf
+	Perímetro Total: 863.05 unidades
+	Detalhamento por Layer:
+		- Layer 1: 863.05
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 863.05
+-------------------------------------------------------
+Arquivo: p0136.dxf
+	Perímetro Total: 374.51 unidades
+	Detalhamento por Layer:
+		- Layer 1: 314.51
+		- Layer 2: 60.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 374.51
+-------------------------------------------------------
+Arquivo: p0137.dxf
+	Perímetro Total: 2104.43 unidades
+	Detalhamento por Layer:
+		- Layer 2: 60.00
+		- Layer 1: 2044.43
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2104.43
+-------------------------------------------------------
+Arquivo: p0138.dxf
+	Perímetro Total: 1597.28 unidades
+	Detalhamento por Layer:
+		- Layer 2: 100.00
+		- Layer 1: 1497.28
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1597.28
+-------------------------------------------------------
+Arquivo: p0139.dxf
+	Perímetro Total: 5975.19 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4921.19
+		- Layer 2: 1054.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 5975.19
+-------------------------------------------------------
+Arquivo: p0140.dxf
+	Perímetro Total: 187.69 unidades
+	Detalhamento por Layer:
+		- Layer 1: 157.69
+		- Layer 2: 30.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 187.69
+-------------------------------------------------------
+Arquivo: p0141.dxf
+	Perímetro Total: 1014.58 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1014.58
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1014.58
+-------------------------------------------------------
+Arquivo: p0142.dxf
+	Perímetro Total: 563.76 unidades
+	Detalhamento por Layer:
+		- Layer 1: 563.76
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 563.76
+-------------------------------------------------------
+Arquivo: p0143.dxf
+	Perímetro Total: 445.64 unidades
+	Detalhamento por Layer:
+		- Layer 1: 445.64
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 445.64
+-------------------------------------------------------
+Arquivo: p0144.dxf
+	Perímetro Total: 8467.20 unidades
+	Detalhamento por Layer:
+		- Layer 2: 1835.56
+		- Layer 1: 6631.64
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 8467.20
+-------------------------------------------------------
+Arquivo: p0145.dxf
+	Perímetro Total: 1129.88 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1129.88
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1129.88
+-------------------------------------------------------
+Arquivo: p0146.dxf
+	Perímetro Total: 2344.00 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2344.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2344.00
+-------------------------------------------------------
+Arquivo: p0147.dxf
+	Perímetro Total: 632.10 unidades
+	Detalhamento por Layer:
+		- Layer 1: 632.10
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 632.10
+-------------------------------------------------------
+Arquivo: p0148.dxf
+	Perímetro Total: 270.56 unidades
+	Detalhamento por Layer:
+		- Layer 1: 270.56
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 270.56
+-------------------------------------------------------
+Arquivo: p0149.dxf
+	Perímetro Total: 758.06 unidades
+	Detalhamento por Layer:
+		- Layer 2: 150.00
+		- Layer 1: 608.06
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 758.06
+-------------------------------------------------------
+Arquivo: p0150.dxf
+	Perímetro Total: 361.80 unidades
+	Detalhamento por Layer:
+		- Layer 2: 48.12
+		- Layer 1: 313.68
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 361.80
+-------------------------------------------------------
+Arquivo: p0151.dxf
+	Perímetro Total: 8012.69 unidades
+	Detalhamento por Layer:
+		- Layer 1: 8012.69
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 8012.69
+-------------------------------------------------------
+Arquivo: p0152.dxf
+	Perímetro Total: 1742.07 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1296.79
+		- Layer 2: 445.28
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1742.07
+-------------------------------------------------------
+Arquivo: p0153.dxf
+	Perímetro Total: 1883.31 unidades
+	Detalhamento por Layer:
+		- Layer 2: 75.00
+		- Layer 1: 1808.31
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1883.31
+-------------------------------------------------------
+Arquivo: p0154.dxf
+	Perímetro Total: 9657.74 unidades
+	Detalhamento por Layer:
+		- Layer 1: 7972.99
+		- Layer 2: 1684.74
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 9657.74
+-------------------------------------------------------
+Arquivo: p0155.dxf
+	Perímetro Total: 178.67 unidades
+	Detalhamento por Layer:
+		- Layer 1: 178.67
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 178.67
+-------------------------------------------------------
+Arquivo: p0156.dxf
+	Perímetro Total: 268.25 unidades
+	Detalhamento por Layer:
+		- Layer 2: 60.00
+		- Layer 1: 208.25
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 268.25
+-------------------------------------------------------
+Arquivo: p0157.dxf
+	Perímetro Total: 456.87 unidades
+	Detalhamento por Layer:
+		- Layer 1: 416.87
+		- Layer 2: 40.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 456.87
+-------------------------------------------------------
+Arquivo: p0158.dxf
+	Perímetro Total: 2840.10 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1925.30
+		- Layer 2: 914.80
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2840.10
+-------------------------------------------------------
+Arquivo: p0159.dxf
+	Perímetro Total: 1035.49 unidades
+	Detalhamento por Layer:
+		- Layer 1: 814.54
+		- Layer 2: 220.95
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1035.49
+-------------------------------------------------------
+Arquivo: p0160.dxf
+	Perímetro Total: 3083.74 unidades
+	Detalhamento por Layer:
+		- Layer 2: 852.00
+		- Layer 1: 2231.74
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3083.74
+-------------------------------------------------------
+Arquivo: p0161.dxf
+	Perímetro Total: 3208.82 unidades
+	Detalhamento por Layer:
+		- Layer 1: 3208.82
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3208.82
+-------------------------------------------------------
+Arquivo: p0162.dxf
+	Perímetro Total: 561.41 unidades
+	Detalhamento por Layer:
+		- Layer 1: 561.41
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 561.41
+-------------------------------------------------------
+Arquivo: p0163.dxf
+	Perímetro Total: 1735.28 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1275.28
+		- Layer 2: 460.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1735.28
+-------------------------------------------------------
+Arquivo: p0164.dxf
+	Perímetro Total: 4634.68 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4538.68
+		- Layer 2: 96.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4634.68
+-------------------------------------------------------
+Arquivo: p0165.dxf
+	Perímetro Total: 248.84 unidades
+	Detalhamento por Layer:
+		- Layer 1: 248.84
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 248.84
+-------------------------------------------------------
+Arquivo: p0166.dxf
+	Perímetro Total: 4895.78 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2855.78
+		- Layer 2: 2040.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4895.78
+-------------------------------------------------------
+Arquivo: p0167.dxf
+	Perímetro Total: 808.50 unidades
+	Detalhamento por Layer:
+		- Layer 1: 808.50
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 808.50
+-------------------------------------------------------
+Arquivo: p0168.dxf
+	Perímetro Total: 1182.40 unidades
+	Detalhamento por Layer:
+		- Layer 2: 300.00
+		- Layer 1: 882.40
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1182.40
+-------------------------------------------------------
+Arquivo: p0169.dxf
+	Perímetro Total: 1729.53 unidades
+	Detalhamento por Layer:
+		- Layer 2: 725.98
+		- Layer 1: 1003.55
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1729.53
+-------------------------------------------------------
+Arquivo: p0170.dxf
+	Perímetro Total: 711.20 unidades
+	Detalhamento por Layer:
+		- Layer 1: 711.20
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 711.20
+-------------------------------------------------------
+Arquivo: p0171.dxf
+	Perímetro Total: 591.26 unidades
+	Detalhamento por Layer:
+		- Layer 2: 76.85
+		- Layer 1: 514.41
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 591.26
+-------------------------------------------------------
+Arquivo: p0172.dxf
+	Perímetro Total: 791.85 unidades
+	Detalhamento por Layer:
+		- Layer 1: 691.85
+		- Layer 2: 100.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 791.85
+-------------------------------------------------------
+Arquivo: p0173.dxf
+	Perímetro Total: 2730.69 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2730.69
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2730.69
+-------------------------------------------------------
+Arquivo: p0174.dxf
+	Perímetro Total: 8923.92 unidades
+	Detalhamento por Layer:
+		- Layer 2: 2068.00
+		- Layer 1: 6855.92
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 8923.92
+-------------------------------------------------------
+Arquivo: p0175.dxf
+	Perímetro Total: 2100.17 unidades
+	Detalhamento por Layer:
+		- Layer 2: 30.00
+		- Layer 1: 2070.17
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2100.17
+-------------------------------------------------------
+Arquivo: p0176.dxf
+	Perímetro Total: 142.00 unidades
+	Detalhamento por Layer:
+		- Layer 1: 142.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 142.00
+-------------------------------------------------------
+Arquivo: p0177.dxf
+	Perímetro Total: 814.50 unidades
+	Detalhamento por Layer:
+		- Layer 1: 814.50
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 814.50
+-------------------------------------------------------
+Arquivo: p0178.dxf
+	Perímetro Total: 1012.24 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1012.24
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1012.24
+-------------------------------------------------------
+Arquivo: p0179.dxf
+	Perímetro Total: 1383.27 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1113.27
+		- Layer 2: 270.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1383.27
+-------------------------------------------------------
+Arquivo: p0180.dxf
+	Perímetro Total: 2681.75 unidades
+	Detalhamento por Layer:
+		- Layer 2: 965.00
+		- Layer 1: 1716.75
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2681.75
+-------------------------------------------------------
+Arquivo: p0181.dxf
+	Perímetro Total: 448.80 unidades
+	Detalhamento por Layer:
+		- Layer 1: 448.80
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 448.80
+-------------------------------------------------------
+Arquivo: p0182.dxf
+	Perímetro Total: 981.47 unidades
+	Detalhamento por Layer:
+		- Layer 1: 808.21
+		- Layer 2: 173.26
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 981.47
+-------------------------------------------------------
+Arquivo: p0183.dxf
+	Perímetro Total: 868.89 unidades
+	Detalhamento por Layer:
+		- Layer 1: 868.89
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 868.89
+-------------------------------------------------------
+Arquivo: p0184.dxf
+	Perímetro Total: 309.09 unidades
+	Detalhamento por Layer:
+		- Layer 1: 309.09
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 309.09
+-------------------------------------------------------
+Arquivo: p0185.dxf
+	Perímetro Total: 438.99 unidades
+	Detalhamento por Layer:
+		- Layer 1: 438.99
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 438.99
+-------------------------------------------------------
+Arquivo: p0186.dxf
+	Perímetro Total: 860.30 unidades
+	Detalhamento por Layer:
+		- Layer 1: 860.30
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 860.30
+-------------------------------------------------------
+Arquivo: p0187.dxf
+	Perímetro Total: 792.97 unidades
+	Detalhamento por Layer:
+		- Layer 1: 672.97
+		- Layer 2: 120.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 792.97
+-------------------------------------------------------
+Arquivo: p0188.dxf
+	Perímetro Total: 497.60 unidades
+	Detalhamento por Layer:
+		- Layer 1: 497.60
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 497.60
+-------------------------------------------------------
+Arquivo: p0189.dxf
+	Perímetro Total: 1236.28 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1236.28
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1236.28
+-------------------------------------------------------
+Arquivo: p0190.dxf
+	Perímetro Total: 3050.65 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2200.85
+		- Layer 2: 849.80
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3050.65
+-------------------------------------------------------
+Arquivo: p0191.dxf
+	Perímetro Total: 603.68 unidades
+	Detalhamento por Layer:
+		- Layer 1: 603.68
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 603.68
+-------------------------------------------------------
+Arquivo: p0192.dxf
+	Perímetro Total: 643.76 unidades
+	Detalhamento por Layer:
+		- Layer 2: 75.00
+		- Layer 1: 568.76
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 643.76
+-------------------------------------------------------
+Arquivo: p0193.dxf
+	Perímetro Total: 738.33 unidades
+	Detalhamento por Layer:
+		- Layer 1: 738.33
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 738.33
+-------------------------------------------------------
+Arquivo: p0194.dxf
+	Perímetro Total: 349.77 unidades
+	Detalhamento por Layer:
+		- Layer 1: 349.77
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 349.77
+-------------------------------------------------------
+Arquivo: p0195.dxf
+	Perímetro Total: 4886.91 unidades
+	Detalhamento por Layer:
+		- Layer 2: 3473.45
+		- Layer 1: 1413.45
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4886.91
+-------------------------------------------------------
+Arquivo: p0196.dxf
+	Perímetro Total: 1465.28 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1253.02
+		- Layer 2: 212.26
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1465.28
+-------------------------------------------------------
+Arquivo: p0197.dxf
+	Perímetro Total: 865.09 unidades
+	Detalhamento por Layer:
+		- Layer 1: 865.09
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 865.09
+-------------------------------------------------------
+Arquivo: p0198.dxf
+	Perímetro Total: 308.82 unidades
+	Detalhamento por Layer:
+		- Layer 1: 308.82
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 308.82
+-------------------------------------------------------
+Arquivo: p0199.dxf
+	Perímetro Total: 948.57 unidades
+	Detalhamento por Layer:
+		- Layer 1: 897.57
+		- Layer 2: 51.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 948.57
+-------------------------------------------------------
+Arquivo: p0200.dxf
+	Perímetro Total: 500.93 unidades
+	Detalhamento por Layer:
+		- Layer 1: 500.93
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 500.93
+-------------------------------------------------------
+Arquivo: p0201.dxf
+	Perímetro Total: 394.29 unidades
+	Detalhamento por Layer:
+		- Layer 1: 394.29
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 394.29
+-------------------------------------------------------
+Arquivo: p0202.dxf
+	Perímetro Total: 5720.74 unidades
+	Detalhamento por Layer:
+		- Layer 1: 5720.74
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 5720.74
+-------------------------------------------------------
+Arquivo: p0203.dxf
+	Perímetro Total: 417.34 unidades
+	Detalhamento por Layer:
+		- Layer 1: 417.34
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 417.34
+-------------------------------------------------------
+Arquivo: p0204.dxf
+	Perímetro Total: 585.09 unidades
+	Detalhamento por Layer:
+		- Layer 1: 585.09
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 585.09
+-------------------------------------------------------
+Arquivo: p0205.dxf
+	Perímetro Total: 342.77 unidades
+	Detalhamento por Layer:
+		- Layer 1: 342.77
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 342.77
+-------------------------------------------------------
+Arquivo: p0206.dxf
+	Perímetro Total: 147.12 unidades
+	Detalhamento por Layer:
+		- Layer 1: 147.12
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 147.12
+-------------------------------------------------------
+Arquivo: p0207.dxf
+	Perímetro Total: 3510.73 unidades
+	Detalhamento por Layer:
+		- Layer 1: 3510.73
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3510.73
+-------------------------------------------------------
+Arquivo: p0208.dxf
+	Perímetro Total: 1254.71 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1101.21
+		- Layer 2: 153.50
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1254.71
+-------------------------------------------------------
+Arquivo: p0209.dxf
+	Perímetro Total: 366.83 unidades
+	Detalhamento por Layer:
+		- Layer 1: 366.83
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 366.83
+-------------------------------------------------------
+Arquivo: p0210.dxf
+	Perímetro Total: 519.40 unidades
+	Detalhamento por Layer:
+		- Layer 1: 519.40
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 519.40
+-------------------------------------------------------
+Arquivo: p0211.dxf
+	Perímetro Total: 898.19 unidades
+	Detalhamento por Layer:
+		- Layer 1: 898.19
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 898.19
+-------------------------------------------------------
+Arquivo: p0212.dxf
+	Perímetro Total: 2416.99 unidades
+	Detalhamento por Layer:
+		- Layer 2: 1026.00
+		- Layer 1: 1390.99
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2416.99
+-------------------------------------------------------
+Arquivo: p0213.dxf
+	Perímetro Total: 1261.27 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1141.27
+		- Layer 2: 120.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1261.27
+-------------------------------------------------------
+Arquivo: p0214.dxf
+	Perímetro Total: 420.88 unidades
+	Detalhamento por Layer:
+		- Layer 1: 420.88
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 420.88
+-------------------------------------------------------
+Arquivo: p0215.dxf
+	Perímetro Total: 1178.00 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1178.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1178.00
+-------------------------------------------------------
+Arquivo: p0216.dxf
+	Perímetro Total: 1254.71 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1101.21
+		- Layer 2: 153.50
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1254.71
+-------------------------------------------------------
+Arquivo: p0217.dxf
+	Perímetro Total: 369.75 unidades
+	Detalhamento por Layer:
+		- Layer 1: 329.75
+		- Layer 2: 40.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 369.75
+-------------------------------------------------------
+Arquivo: p0218.dxf
+	Perímetro Total: 965.97 unidades
+	Detalhamento por Layer:
+		- Layer 1: 965.97
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 965.97
+-------------------------------------------------------
+Arquivo: p0219.dxf
+	Perímetro Total: 759.43 unidades
+	Detalhamento por Layer:
+		- Layer 1: 759.43
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 759.43
+-------------------------------------------------------
+Arquivo: p0220.dxf
+	Perímetro Total: 561.96 unidades
+	Detalhamento por Layer:
+		- Layer 1: 561.96
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 561.96
+-------------------------------------------------------
+Arquivo: p0221.dxf
+	Perímetro Total: 239.83 unidades
+	Detalhamento por Layer:
+		- Layer 1: 239.83
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 239.83
+-------------------------------------------------------
+Arquivo: p0222.dxf
+	Perímetro Total: 540.31 unidades
+	Detalhamento por Layer:
+		- Layer 1: 540.31
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 540.31
+-------------------------------------------------------
+Arquivo: p0223.dxf
+	Perímetro Total: 459.83 unidades
+	Detalhamento por Layer:
+		- Layer 1: 459.83
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 459.83
+-------------------------------------------------------
+Arquivo: p0224.dxf
+	Perímetro Total: 676.73 unidades
+	Detalhamento por Layer:
+		- Layer 1: 584.60
+		- Layer 2: 92.13
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 676.73
+-------------------------------------------------------
+Arquivo: p0225.dxf
+	Perímetro Total: 1679.11 unidades
+	Detalhamento por Layer:
+		- Layer 2: 384.15
+		- Layer 1: 1294.96
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1679.11
+-------------------------------------------------------
+Arquivo: p0226.dxf
+	Perímetro Total: 973.81 unidades
+	Detalhamento por Layer:
+		- Layer 2: 160.00
+		- Layer 1: 813.81
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 973.81
+-------------------------------------------------------
+Arquivo: p0227.dxf
+	Perímetro Total: 2435.12 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2435.12
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2435.12
+-------------------------------------------------------
+Arquivo: p0228.dxf
+	Perímetro Total: 592.90 unidades
+	Detalhamento por Layer:
+		- Layer 1: 592.90
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 592.90
+-------------------------------------------------------
+Arquivo: p0229.dxf
+	Perímetro Total: 806.58 unidades
+	Detalhamento por Layer:
+		- Layer 1: 806.58
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 806.58
+-------------------------------------------------------
+Arquivo: p0230.dxf
+	Perímetro Total: 633.45 unidades
+	Detalhamento por Layer:
+		- Layer 1: 633.45
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 633.45
+-------------------------------------------------------
+Arquivo: p0231.dxf
+	Perímetro Total: 981.47 unidades
+	Detalhamento por Layer:
+		- Layer 1: 808.21
+		- Layer 2: 173.26
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 981.47
+-------------------------------------------------------
+Arquivo: p0232.dxf
+	Perímetro Total: 2840.61 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2840.61
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2840.61
+-------------------------------------------------------
+Arquivo: p0233.dxf
+	Perímetro Total: 704.25 unidades
+	Detalhamento por Layer:
+		- Layer 1: 633.25
+		- Layer 2: 71.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 704.25
+-------------------------------------------------------
+Arquivo: p0234.dxf
+	Perímetro Total: 152.10 unidades
+	Detalhamento por Layer:
+		- Layer 1: 152.10
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 152.10
+-------------------------------------------------------
+Arquivo: p0235.dxf
+	Perímetro Total: 2374.71 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2374.71
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2374.71
+-------------------------------------------------------
+Arquivo: p0236.dxf
+	Perímetro Total: 2328.71 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2328.71
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2328.71
+-------------------------------------------------------
+Arquivo: p0237.dxf
+	Perímetro Total: 1360.97 unidades
+	Detalhamento por Layer:
+		- Layer 2: 36.00
+		- Layer 1: 1324.97
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1360.97
+-------------------------------------------------------
+Arquivo: p0238.dxf
+	Perímetro Total: 1432.15 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1432.15
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1432.15
+-------------------------------------------------------
+Arquivo: p0239.dxf
+	Perímetro Total: 937.02 unidades
+	Detalhamento por Layer:
+		- Layer 1: 937.02
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 937.02
+-------------------------------------------------------
+Arquivo: p0240.dxf
+	Perímetro Total: 447.27 unidades
+	Detalhamento por Layer:
+		- Layer 1: 447.27
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 447.27
+-------------------------------------------------------
+Arquivo: p0241.dxf
+	Perímetro Total: 268.44 unidades
+	Detalhamento por Layer:
+		- Layer 1: 268.44
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 268.44
+-------------------------------------------------------
+Arquivo: p0242.dxf
+	Perímetro Total: 559.69 unidades
+	Detalhamento por Layer:
+		- Layer 1: 559.69
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 559.69
+-------------------------------------------------------
+Arquivo: p0243.dxf
+	Perímetro Total: 2155.59 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2155.59
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2155.59
+-------------------------------------------------------
+Arquivo: p0244.dxf
+	Perímetro Total: 676.73 unidades
+	Detalhamento por Layer:
+		- Layer 1: 584.60
+		- Layer 2: 92.13
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 676.73
+-------------------------------------------------------
+Arquivo: p0245.dxf
+	Perímetro Total: 1212.64 unidades
+	Detalhamento por Layer:
+		- Layer 2: 93.00
+		- Layer 1: 1119.64
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1212.64
+-------------------------------------------------------
+Arquivo: p0246.dxf
+	Perímetro Total: 4138.09 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4138.09
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4138.09
+-------------------------------------------------------
+Arquivo: p0247.dxf
+	Perímetro Total: 917.90 unidades
+	Detalhamento por Layer:
+		- Layer 2: 120.00
+		- Layer 1: 797.90
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 917.90
+-------------------------------------------------------
+Arquivo: p0248.dxf
+	Perímetro Total: 346.22 unidades
+	Detalhamento por Layer:
+		- Layer 1: 346.22
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 346.22
+-------------------------------------------------------
+Arquivo: p0249.dxf
+	Perímetro Total: 4370.55 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4370.55
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4370.55
+-------------------------------------------------------
+Arquivo: p0250.dxf
+	Perímetro Total: 1744.88 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1624.88
+		- Layer 2: 120.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1744.88
+-------------------------------------------------------
+Arquivo: p0251.dxf
+	Perímetro Total: 3674.86 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1703.26
+		- Layer 2: 1971.60
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3674.86
+-------------------------------------------------------
+Arquivo: p0252.dxf
+	Perímetro Total: 1282.23 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1282.23
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1282.23
+-------------------------------------------------------
+Arquivo: p0253.dxf
+	Perímetro Total: 761.99 unidades
+	Detalhamento por Layer:
+		- Layer 1: 761.99
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 761.99
+-------------------------------------------------------
+Arquivo: p0254.dxf
+	Perímetro Total: 2433.58 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2433.58
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2433.58
+-------------------------------------------------------
+Arquivo: p0255.dxf
+	Perímetro Total: 865.38 unidades
+	Detalhamento por Layer:
+		- Layer 1: 865.38
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 865.38
+-------------------------------------------------------
+Arquivo: p0256.dxf
+	Perímetro Total: 137.38 unidades
+	Detalhamento por Layer:
+		- Layer 1: 137.38
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 137.38
+-------------------------------------------------------
+Arquivo: p0257.dxf
+	Perímetro Total: 1552.49 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1552.49
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1552.49
+-------------------------------------------------------
+Arquivo: p0258.dxf
+	Perímetro Total: 129.43 unidades
+	Detalhamento por Layer:
+		- Layer 1: 129.43
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 129.43
+-------------------------------------------------------
+Arquivo: p0259.dxf
+	Perímetro Total: 1680.06 unidades
+	Detalhamento por Layer:
+		- Layer 2: 379.15
+		- Layer 1: 1300.91
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1680.06
+-------------------------------------------------------
+Arquivo: p0260.dxf
+	Perímetro Total: 458.67 unidades
+	Detalhamento por Layer:
+		- Layer 1: 458.67
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 458.67
+-------------------------------------------------------
+Arquivo: p0261.dxf
+	Perímetro Total: 338.19 unidades
+	Detalhamento por Layer:
+		- Layer 1: 338.19
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 338.19
+-------------------------------------------------------
+Arquivo: p0262.dxf
+	Perímetro Total: 258.82 unidades
+	Detalhamento por Layer:
+		- Layer 1: 258.82
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 258.82
+-------------------------------------------------------
+Arquivo: p0263.dxf
+	Perímetro Total: 8728.60 unidades
+	Detalhamento por Layer:
+		- Layer 2: 6931.09
+		- Layer 1: 1797.51
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 8728.60
+-------------------------------------------------------
+Arquivo: p0264.dxf
+	Perímetro Total: 98.40 unidades
+	Detalhamento por Layer:
+		- Layer 1: 98.40
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 98.40
+-------------------------------------------------------
+Arquivo: p0265.dxf
+	Perímetro Total: 193.76 unidades
+	Detalhamento por Layer:
+		- Layer 1: 193.76
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 193.76
+-------------------------------------------------------
+Arquivo: p0266.dxf
+	Perímetro Total: 1372.08 unidades
+	Detalhamento por Layer:
+		- Layer 2: 400.00
+		- Layer 1: 972.08
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1372.08
+-------------------------------------------------------
+Arquivo: p0267.dxf
+	Perímetro Total: 415.49 unidades
+	Detalhamento por Layer:
+		- Layer 1: 415.49
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 415.49
+-------------------------------------------------------
+Arquivo: p0268.dxf
+	Perímetro Total: 351.41 unidades
+	Detalhamento por Layer:
+		- Layer 1: 351.41
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 351.41
+-------------------------------------------------------
+Arquivo: p0269.dxf
+	Perímetro Total: 1591.52 unidades
+	Detalhamento por Layer:
+		- Layer 2: 1117.54
+		- Layer 1: 473.98
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1591.52
+-------------------------------------------------------
+Arquivo: p0270.dxf
+	Perímetro Total: 1066.83 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1066.83
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1066.83
+-------------------------------------------------------
+Arquivo: p0271.dxf
+	Perímetro Total: 1214.40 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1214.40
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1214.40
+-------------------------------------------------------
+Arquivo: p0272.dxf
+	Perímetro Total: 2026.90 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1506.90
+		- Layer 2: 520.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2026.90
+-------------------------------------------------------
+Arquivo: p0273.dxf
+	Perímetro Total: 1212.15 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1212.15
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1212.15
+-------------------------------------------------------
+Arquivo: p0274.dxf
+	Perímetro Total: 1798.31 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1798.31
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1798.31
+-------------------------------------------------------
+Arquivo: p0275.dxf
+	Perímetro Total: 614.78 unidades
+	Detalhamento por Layer:
+		- Layer 1: 614.78
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 614.78
+-------------------------------------------------------
+Arquivo: p0276.dxf
+	Perímetro Total: 367.98 unidades
+	Detalhamento por Layer:
+		- Layer 1: 367.98
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 367.98
+-------------------------------------------------------
+Arquivo: p0277.dxf
+	Perímetro Total: 1668.60 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1568.60
+		- Layer 2: 100.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1668.60
+-------------------------------------------------------
+Arquivo: p0278.dxf
+	Perímetro Total: 151.42 unidades
+	Detalhamento por Layer:
+		- Layer 1: 151.42
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 151.42
+-------------------------------------------------------
+Arquivo: p0279.dxf
+	Perímetro Total: 948.57 unidades
+	Detalhamento por Layer:
+		- Layer 1: 897.57
+		- Layer 2: 51.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 948.57
+-------------------------------------------------------
+Arquivo: p0280.dxf
+	Perímetro Total: 4031.69 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4031.69
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4031.69
+-------------------------------------------------------
+Arquivo: p0281.dxf
+	Perímetro Total: 2796.16 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2651.16
+		- Layer 2: 145.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2796.16
+-------------------------------------------------------
+Arquivo: p0282.dxf
+	Perímetro Total: 463.89 unidades
+	Detalhamento por Layer:
+		- Layer 1: 413.89
+		- Layer 2: 50.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 463.89
+-------------------------------------------------------
+Arquivo: p0283.dxf
+	Perímetro Total: 298.45 unidades
+	Detalhamento por Layer:
+		- Layer 1: 298.45
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 298.45
+-------------------------------------------------------
+Arquivo: p0284.dxf
+	Perímetro Total: 434.70 unidades
+	Detalhamento por Layer:
+		- Layer 1: 434.70
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 434.70
+-------------------------------------------------------
+Arquivo: p0285.dxf
+	Perímetro Total: 476.58 unidades
+	Detalhamento por Layer:
+		- Layer 1: 476.58
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 476.58
+-------------------------------------------------------
+Arquivo: p0286.dxf
+	Perímetro Total: 2797.19 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2797.19
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2797.19
+-------------------------------------------------------
+Arquivo: p0287.dxf
+	Perímetro Total: 590.54 unidades
+	Detalhamento por Layer:
+		- Layer 2: 27.00
+		- Layer 1: 563.54
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 590.54
+-------------------------------------------------------
+Arquivo: p0288.dxf
+	Perímetro Total: 1027.78 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1027.78
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1027.78
+-------------------------------------------------------
+Arquivo: p0289.dxf
+	Perímetro Total: 1569.13 unidades
+	Detalhamento por Layer:
+		- Layer 2: 209.05
+		- Layer 1: 1360.08
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1569.13
+-------------------------------------------------------
+Arquivo: p0290.dxf
+	Perímetro Total: 739.43 unidades
+	Detalhamento por Layer:
+		- Layer 1: 739.43
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 739.43
+-------------------------------------------------------
+Arquivo: p0291.dxf
+	Perímetro Total: 3930.99 unidades
+	Detalhamento por Layer:
+		- Layer 2: 1048.74
+		- Layer 1: 2882.25
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3930.99
+-------------------------------------------------------
+Arquivo: p0292.dxf
+	Perímetro Total: 2248.67 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1793.37
+		- Layer 2: 455.30
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2248.67
+-------------------------------------------------------
+Arquivo: p0293.dxf
+	Perímetro Total: 900.29 unidades
+	Detalhamento por Layer:
+		- Layer 1: 900.29
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 900.29
+-------------------------------------------------------
+Arquivo: p0294.dxf
+	Perímetro Total: 1282.75 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1028.35
+		- Layer 2: 254.40
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1282.75
+-------------------------------------------------------
+Arquivo: p0295.dxf
+	Perímetro Total: 261.96 unidades
+	Detalhamento por Layer:
+		- Layer 1: 261.96
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 261.96
+-------------------------------------------------------
+Arquivo: p0296.dxf
+	Perímetro Total: 17004.93 unidades
+	Detalhamento por Layer:
+		- Layer 1: 6695.83
+		- Layer 2: 10309.11
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 17004.93
+-------------------------------------------------------
+Arquivo: p0297.dxf
+	Perímetro Total: 349.77 unidades
+	Detalhamento por Layer:
+		- Layer 1: 349.77
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 349.77
+-------------------------------------------------------
+Arquivo: p0298.dxf
+	Perímetro Total: 204.63 unidades
+	Detalhamento por Layer:
+		- Layer 1: 204.63
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 204.63
+-------------------------------------------------------
+Arquivo: p0299.dxf
+	Perímetro Total: 280.13 unidades
+	Detalhamento por Layer:
+		- Layer 2: 60.00
+		- Layer 1: 220.13
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 280.13
+-------------------------------------------------------
+Arquivo: p0300.dxf
+	Perímetro Total: 1178.00 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1178.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1178.00
+-------------------------------------------------------
+Arquivo: p0301.dxf
+	Perímetro Total: 845.16 unidades
+	Detalhamento por Layer:
+		- Layer 1: 845.16
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 845.16
+-------------------------------------------------------
+Arquivo: p0302.dxf
+	Perímetro Total: 597.68 unidades
+	Detalhamento por Layer:
+		- Layer 1: 597.68
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 597.68
+-------------------------------------------------------
+Arquivo: p0303.dxf
+	Perímetro Total: 2474.32 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2474.32
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2474.32
+-------------------------------------------------------
+Arquivo: p0304.dxf
+	Perímetro Total: 297.38 unidades
+	Detalhamento por Layer:
+		- Layer 1: 297.38
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 297.38
+-------------------------------------------------------
+Arquivo: p0305.dxf
+	Perímetro Total: 3504.32 unidades
+	Detalhamento por Layer:
+		- Layer 2: 661.20
+		- Layer 1: 2843.12
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3504.32
+-------------------------------------------------------
+Arquivo: p0306.dxf
+	Perímetro Total: 405.82 unidades
+	Detalhamento por Layer:
+		- Layer 1: 388.82
+		- Layer 2: 17.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 405.82
+-------------------------------------------------------
+Arquivo: p0307.dxf
+	Perímetro Total: 2413.34 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2413.34
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2413.34
+-------------------------------------------------------
+Arquivo: p0308.dxf
+	Perímetro Total: 1527.74 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1192.74
+		- Layer 2: 335.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1527.74
+-------------------------------------------------------
+Arquivo: p0309.dxf
+	Perímetro Total: 1481.60 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1481.60
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1481.60
+-------------------------------------------------------
+Arquivo: p0310.dxf
+	Perímetro Total: 8664.01 unidades
+	Detalhamento por Layer:
+		- Layer 2: 3890.03
+		- Layer 1: 4773.98
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 8664.01
+-------------------------------------------------------
+Arquivo: p0311.dxf
+	Perímetro Total: 882.90 unidades
+	Detalhamento por Layer:
+		- Layer 1: 882.90
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 882.90
+-------------------------------------------------------
+Arquivo: p0312.dxf
+	Perímetro Total: 555.90 unidades
+	Detalhamento por Layer:
+		- Layer 1: 555.90
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 555.90
+-------------------------------------------------------
+Arquivo: p0313.dxf
+	Perímetro Total: 1599.95 unidades
+	Detalhamento por Layer:
+		- Layer 2: 832.41
+		- Layer 1: 767.55
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1599.95
+-------------------------------------------------------
+Arquivo: p0314.dxf
+	Perímetro Total: 1167.42 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1167.42
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1167.42
+-------------------------------------------------------
+Arquivo: p0315.dxf
+	Perímetro Total: 955.30 unidades
+	Detalhamento por Layer:
+		- Layer 1: 955.30
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 955.30
+-------------------------------------------------------
+Arquivo: p0316.dxf
+	Perímetro Total: 474.85 unidades
+	Detalhamento por Layer:
+		- Layer 1: 474.85
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 474.85
+-------------------------------------------------------
+Arquivo: p0317.dxf
+	Perímetro Total: 159.42 unidades
+	Detalhamento por Layer:
+		- Layer 1: 159.42
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 159.42
+-------------------------------------------------------
+Arquivo: p0318.dxf
+	Perímetro Total: 192.66 unidades
+	Detalhamento por Layer:
+		- Layer 1: 192.66
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 192.66
+-------------------------------------------------------
+Arquivo: p0319.dxf
+	Perímetro Total: 127.42 unidades
+	Detalhamento por Layer:
+		- Layer 1: 127.42
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 127.42
+-------------------------------------------------------
+Arquivo: p0320.dxf
+	Perímetro Total: 753.36 unidades
+	Detalhamento por Layer:
+		- Layer 1: 654.56
+		- Layer 2: 98.80
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 753.36
+-------------------------------------------------------
+Arquivo: p0321.dxf
+	Perímetro Total: 7191.11 unidades
+	Detalhamento por Layer:
+		- Layer 1: 7191.11
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 7191.11
+-------------------------------------------------------
+Arquivo: p0322.dxf
+	Perímetro Total: 2689.85 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2689.85
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2689.85
+-------------------------------------------------------
+Arquivo: p0323.dxf
+	Perímetro Total: 802.80 unidades
+	Detalhamento por Layer:
+		- Layer 1: 802.80
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 802.80
+-------------------------------------------------------
+Arquivo: p0324.dxf
+	Perímetro Total: 942.67 unidades
+	Detalhamento por Layer:
+		- Layer 1: 942.67
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 942.67
+-------------------------------------------------------
+Arquivo: p0325.dxf
+	Perímetro Total: 7304.22 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4418.42
+		- Layer 2: 2885.80
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 7304.22
+-------------------------------------------------------
+Arquivo: p0326.dxf
+	Perímetro Total: 1459.23 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1459.23
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1459.23
+-------------------------------------------------------
+Arquivo: p0327.dxf
+	Perímetro Total: 1278.53 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1278.53
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1278.53
+-------------------------------------------------------
+Arquivo: p0328.dxf
+	Perímetro Total: 2782.83 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2782.83
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2782.83
+-------------------------------------------------------
+Arquivo: p0329.dxf
+	Perímetro Total: 1045.79 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1045.79
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1045.79
+-------------------------------------------------------
+Arquivo: p0330.dxf
+	Perímetro Total: 575.67 unidades
+	Detalhamento por Layer:
+		- Layer 1: 575.67
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 575.67
+-------------------------------------------------------
+Arquivo: p0331.dxf
+	Perímetro Total: 511.05 unidades
+	Detalhamento por Layer:
+		- Layer 1: 511.05
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 511.05
+-------------------------------------------------------
+Arquivo: p0332.dxf
+	Perímetro Total: 445.48 unidades
+	Detalhamento por Layer:
+		- Layer 1: 445.48
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 445.48
+-------------------------------------------------------
+Arquivo: p0333.dxf
+	Perímetro Total: 888.03 unidades
+	Detalhamento por Layer:
+		- Layer 2: 209.26
+		- Layer 1: 678.77
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 888.03
+-------------------------------------------------------
+Arquivo: p0334.dxf
+	Perímetro Total: 961.80 unidades
+	Detalhamento por Layer:
+		- Layer 1: 961.80
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 961.80
+-------------------------------------------------------
+Arquivo: p0335.dxf
+	Perímetro Total: 1026.62 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1026.62
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1026.62
+-------------------------------------------------------
+Arquivo: p0336.dxf
+	Perímetro Total: 525.75 unidades
+	Detalhamento por Layer:
+		- Layer 1: 525.75
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 525.75
+-------------------------------------------------------
+Arquivo: p0337.dxf
+	Perímetro Total: 4182.64 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4182.64
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4182.64
+-------------------------------------------------------
+Arquivo: p0338.dxf
+	Perímetro Total: 600.63 unidades
+	Detalhamento por Layer:
+		- Layer 1: 500.63
+		- Layer 2: 100.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 600.63
+-------------------------------------------------------
+Arquivo: p0339.dxf
+	Perímetro Total: 519.21 unidades
+	Detalhamento por Layer:
+		- Layer 1: 484.21
+		- Layer 2: 35.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 519.21
+-------------------------------------------------------
+Arquivo: p0340.dxf
+	Perímetro Total: 685.98 unidades
+	Detalhamento por Layer:
+		- Layer 2: 172.26
+		- Layer 1: 513.72
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 685.98
+-------------------------------------------------------
+Arquivo: p0341.dxf
+	Perímetro Total: 946.29 unidades
+	Detalhamento por Layer:
+		- Layer 2: 55.89
+		- Layer 1: 890.40
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 946.29
+-------------------------------------------------------
+Arquivo: p0342.dxf
+	Perímetro Total: 12214.12 unidades
+	Detalhamento por Layer:
+		- Layer 1: 5025.01
+		- Layer 2: 7189.11
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 12214.12
+-------------------------------------------------------
+Arquivo: p0343.dxf
+	Perímetro Total: 720.97 unidades
+	Detalhamento por Layer:
+		- Layer 2: 40.00
+		- Layer 1: 680.97
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 720.97
+-------------------------------------------------------
+Arquivo: p0344.dxf
+	Perímetro Total: 1180.80 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1130.80
+		- Layer 2: 50.00
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1180.80
+-------------------------------------------------------
+Arquivo: p0345.dxf
+	Perímetro Total: 841.71 unidades
+	Detalhamento por Layer:
+		- Layer 1: 841.71
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 841.71
+-------------------------------------------------------
+Arquivo: p0346.dxf
+	Perímetro Total: 782.77 unidades
+	Detalhamento por Layer:
+		- Layer 2: 170.00
+		- Layer 1: 612.77
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 782.77
+-------------------------------------------------------
+Arquivo: p0347.dxf
+	Perímetro Total: 390.30 unidades
+	Detalhamento por Layer:
+		- Layer 2: 34.38
+		- Layer 1: 355.92
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 390.30
+-------------------------------------------------------
+Arquivo: p0348.dxf
+	Perímetro Total: 1371.53 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1371.53
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1371.53
+-------------------------------------------------------
+Arquivo: p0349.dxf
+	Perímetro Total: 765.10 unidades
+	Detalhamento por Layer:
+		- Layer 1: 765.10
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 765.10
+-------------------------------------------------------
+Arquivo: p0350.dxf
+	Perímetro Total: 3089.25 unidades
+	Detalhamento por Layer:
+		- Layer 2: 854.00
+		- Layer 1: 2235.25
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 3089.25
+-------------------------------------------------------
+Arquivo: p0351.dxf
+	Perímetro Total: 323.23 unidades
+	Detalhamento por Layer:
+		- Layer 1: 323.23
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 323.23
+-------------------------------------------------------
+Arquivo: p0352.dxf
+	Perímetro Total: 917.91 unidades
+	Detalhamento por Layer:
+		- Layer 2: 120.00
+		- Layer 1: 797.91
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 917.91
+-------------------------------------------------------
+Arquivo: p0353.dxf
+	Perímetro Total: 127.99 unidades
+	Detalhamento por Layer:
+		- Layer 1: 127.99
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 127.99
+-------------------------------------------------------
+Arquivo: p0354.dxf
+	Perímetro Total: 2831.59 unidades
+	Detalhamento por Layer:
+		- Layer 1: 2831.59
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 2831.59
+-------------------------------------------------------
+Arquivo: p0355.dxf
+	Perímetro Total: 1171.58 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1171.58
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1171.58
+-------------------------------------------------------
+Arquivo: p0356.dxf
+	Perímetro Total: 901.79 unidades
+	Detalhamento por Layer:
+		- Layer 1: 901.79
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 901.79
+-------------------------------------------------------
+Arquivo: p0357.dxf
+	Perímetro Total: 4209.14 unidades
+	Detalhamento por Layer:
+		- Layer 1: 4209.14
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 4209.14
+-------------------------------------------------------
+Arquivo: p0358.dxf
+	Perímetro Total: 685.98 unidades
+	Detalhamento por Layer:
+		- Layer 2: 172.26
+		- Layer 1: 513.72
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 685.98
+-------------------------------------------------------
+Arquivo: p0359.dxf
+	Perímetro Total: 617.88 unidades
+	Detalhamento por Layer:
+		- Layer 0: 617.88
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 617.88
+-------------------------------------------------------
+Arquivo: p0360.dxf
+	Perímetro Total: 138.62 unidades
+	Detalhamento por Layer:
+		- Layer 1: 138.62
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 138.62
+-------------------------------------------------------
+Arquivo: p0361.dxf
+	Perímetro Total: 711.31 unidades
+	Detalhamento por Layer:
+		- Layer 1: 711.31
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 711.31
+-------------------------------------------------------
+Arquivo: p0362.dxf
+	Perímetro Total: 767.85 unidades
+	Detalhamento por Layer:
+		- Layer 1: 767.85
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 767.85
+-------------------------------------------------------
+Arquivo: p0363.dxf
+	Perímetro Total: 684.54 unidades
+	Detalhamento por Layer:
+		- Layer 1: 684.54
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 684.54
+-------------------------------------------------------
+Arquivo: p0364.dxf
+	Perímetro Total: 1225.34 unidades
+	Detalhamento por Layer:
+		- Layer 1: 1225.34
+	Detalhamento por Peça (Bloco):
+		- Bloco raiz: 1225.34
+-------------------------------------------------------
