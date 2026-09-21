@@ -142,6 +142,47 @@
   color: var(--accent);
 }
 
+.dxf-resultado {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.dxf-canvas-wrap {
+  position: relative;
+  width: 100%;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.dxf-canvas {
+  display: block;
+  cursor: crosshair;
+}
+
+.dxf-tooltip {
+  position: absolute;
+  z-index: 1;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  color: var(--ok);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 6px;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.dxf-metricas {
+  display: flex;
+  gap: 32px;
+}
+
 .params-table {
   width: 100%;
   border-collapse: collapse;

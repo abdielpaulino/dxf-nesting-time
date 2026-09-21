@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
+import DxfCanvas from './DxfCanvas.jsx'
 
-export default function DxfUpload({ onFileSelected }) {
+export default function DxfUpload({ onFileSelected, geometria }) {
   const inputRef = useRef(null)
   const [arquivo, setArquivo] = useState(null)
   const [arrastando, setArrastando] = useState(false)
@@ -53,6 +54,26 @@ export default function DxfUpload({ onFileSelected }) {
           </div>
         )}
       </div>
+
+      {geometria && (
+        <div className="dxf-resultado">
+          <DxfCanvas desenho={geometria.desenho} />
+
+          <div className="dxf-metricas">
+            <div>
+              <div className="result-label">Perímetro</div>
+              <div className="result-value result-value--accent">
+                {geometria.comprimentoMm.toFixed(2)} mm
+              </div>
+              <div className="text-dim">{(geometria.comprimentoMm / 1000).toFixed(2)} m</div>
+            </div>
+            <div>
+              <div className="result-label">Furos</div>
+              <div className="result-value">{geometria.numFuros}</div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
