@@ -70,7 +70,7 @@ export default function App() {
       </header>
 
       <main className="app-main">
-        <ParametrosSelector dados={dados} selecao={selecao} setSelecao={setSelecao} />
+        <ParametrosSelector dados={dados} selecao={selecao} setSelecao={setSelecao} parametro={parametro} />
         <DxfUpload onFileSelected={handleDxfSelecionado} />
         {erro && <div className="card card--erro">{erro}</div>}
         <ResultadoEstimativa resultado={resultado} carregando={carregando} />
