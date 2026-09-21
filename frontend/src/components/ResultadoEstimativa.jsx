@@ -17,7 +17,7 @@ export default function ResultadoEstimativa({ resultado, carregando }) {
     )
   }
 
-  const { parametro, tempoTotalFormatado } = resultado
+  const { tempoTotalFormatado } = resultado
 
   return (
     <div className="card">

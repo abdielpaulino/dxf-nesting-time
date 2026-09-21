@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import dados from './data/parametros_corte.json'
 import ParametrosSelector from './components/ParametrosSelector.jsx'
 import DxfUpload from './components/DxfUpload.jsx'
@@ -18,6 +18,20 @@ export default function App() {
   const [resultado, setResultado] = useState(null)
   const [carregando, setCarregando] = useState(false)
   const [erro, setErro] = useState(null)
+
+  const parametro = useMemo(() => {
+    const { material, espessuraDisplay, potencia, gas } = selecao
+    if (!material || !espessuraDisplay || !potencia || !gas) return null
+    return (
+      dados.find(
+        (d) =>
+          d.material === material &&
+          d.espessura_display === espessuraDisplay &&
+          d.potencia_w === potencia &&
+          d.gas_auxiliar === gas
+      ) || null
+    )
+  }, [selecao])
 
   async function handleDxfSelecionado(file) {
     setErro(null)
