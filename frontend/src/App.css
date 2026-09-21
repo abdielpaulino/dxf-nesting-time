@@ -32,6 +32,11 @@
   color: var(--text-dim);
 }
 
+.card--erro {
+  border-color: #c0392b;
+  color: #e74c3c;
+}
+
 .card h2 {
   font-size: 15px;
   margin: 0 0 16px;

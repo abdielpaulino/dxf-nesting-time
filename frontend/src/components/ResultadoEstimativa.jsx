@@ -1,28 +1,23 @@
-const TEMPO_PERFURACAO_S = 1.5
-
-export default function ResultadoEstimativa({ parametro, geometria }) {
-  if (!parametro) {
+export default function ResultadoEstimativa({ resultado, carregando }) {
+  if (carregando) {
     return (
       <div className="card card--muted">
         <h2>3. Estimativa</h2>
-        <p className="text-dim">Selecione material, espessura, potência e gás para calcular.</p>
+        <p className="text-dim">Calculando...</p>
       </div>
     )
   }
 
-  const { comprimentoMm, numFuros, quantidade } = geometria
-  const velocidadeMmMin = parametro.velocidade_corte_m_min * 1000
-
-  const tempoCorteMin = velocidadeMmMin > 0 ? comprimentoMm / velocidadeMmMin : 0
-  const tempoPerfuracaoMin = (numFuros * TEMPO_PERFURACAO_S) / 60
-  const tempoTotalMin = (tempoCorteMin + tempoPerfuracaoMin) * quantidade
-
-  function formatarMin(min) {
-    const totalSeg = Math.round(min * 60)
-    const m = Math.floor(totalSeg / 60)
-    const s = totalSeg % 60
-    return `${m}min ${s.toString().padStart(2, '0')}s`
+  if (!resultado) {
+    return (
+      <div className="card card--muted">
+        <h2>3. Estimativa</h2>
+        <p className="text-dim">Selecione material, espessura, potência, gás e envie um DXF para calcular.</p>
+      </div>
+    )
   }
+
+  const { parametro, tempoTotalFormatado } = resultado
 
   return (
     <div className="card">
@@ -30,7 +25,7 @@ export default function ResultadoEstimativa({ parametro, geometria }) {
 
       <div>
         <div className="result-label">Tempo total</div>
-        <div className="result-value result-value--accent">{formatarMin(tempoTotalMin)}</div>
+        <div className="result-value result-value--accent">{tempoTotalFormatado}</div>
       </div>
 
       <table className="params-table">
