@@ -1,4 +1,4 @@
-export default function ResultadoEstimativa({ resultado, carregando }) {
+export default function ResultadoEstimativa({ resultado, resultadoMl, erroMl, carregando, carregandoMl }) {
   if (carregando) {
     return (
       <div className="card card--muted">
@@ -17,16 +17,38 @@ export default function ResultadoEstimativa({ resultado, carregando }) {
     )
   }
 
-  const { tempoTotalFormatado } = resultado
+  const diffMin = resultadoMl ? resultadoMl.tempoTotalMin - resultado.tempoTotalMin : null
 
   return (
     <div className="card">
       <h2>3. Estimativa</h2>
 
-      <div>
-        <div className="result-label">Tempo total</div>
-        <div className="result-value result-value--accent">{tempoTotalFormatado}</div>
+      <div className="grid-2">
+        <div>
+          <div className="result-label">Fórmula atual</div>
+          <div className="result-value">{resultado.tempoTotalFormatado}</div>
+        </div>
+
+        <div>
+          <div className="result-label">Random Forest (IA)</div>
+          {carregandoMl && <div className="result-value text-dim">Calculando...</div>}
+          {!carregandoMl && resultadoMl && (
+            <div className="result-value result-value--accent">{resultadoMl.tempoTotalFormatado}</div>
+          )}
+          {!carregandoMl && !resultadoMl && (
+            <p className="text-dim">
+              {erroMl || 'Indisponível.'}
+            </p>
+          )}
+        </div>
       </div>
+
+      {resultadoMl && (
+        <p className="hint">
+          Diferença IA − fórmula: {diffMin >= 0 ? '+' : ''}
+          {diffMin.toFixed(2)} min
+        </p>
+      )}
     </div>
   )
 }

@@ -3,7 +3,7 @@ import dados from './data/parametros_corte.json'
 import ParametrosSelector from './components/ParametrosSelector.jsx'
 import DxfUpload from './components/DxfUpload.jsx'
 import ResultadoEstimativa from './components/ResultadoEstimativa.jsx'
-import { analisarDxf, calcularEstimativa } from './api.js'
+import { analisarDxf, calcularEstimativa, calcularEstimativaMl } from './api.js'
 import './App.css'
 
 export default function App() {
@@ -16,6 +16,9 @@ export default function App() {
 
   const [geometria, setGeometria] = useState(null)
   const [resultado, setResultado] = useState(null)
+  const [resultadoMl, setResultadoMl] = useState(null)
+  const [erroMl, setErroMl] = useState(null)
+  const [carregandoMl, setCarregandoMl] = useState(false)
   const [carregando, setCarregando] = useState(false)
   const [erro, setErro] = useState(null)
 
@@ -51,12 +54,17 @@ export default function App() {
     const { material, espessuraDisplay, potencia, gas } = selecao
     if (!material || !espessuraDisplay || !potencia || !gas || !geometria) {
       setResultado(null)
+      setResultadoMl(null)
+      setErroMl(null)
+      setCarregandoMl(false)
       return
     }
 
     let cancelado = false
     setErro(null)
+    setErroMl(null)
     setCarregando(true)
+    setCarregandoMl(true)
 
     calcularEstimativa({ ...selecao, geometria })
       .then((res) => {
@@ -70,6 +78,20 @@ export default function App() {
       })
       .finally(() => {
         if (!cancelado) setCarregando(false)
+      })
+
+    calcularEstimativaMl({ ...selecao, geometria })
+      .then((res) => {
+        if (!cancelado) setResultadoMl(res)
+      })
+      .catch((e) => {
+        if (!cancelado) {
+          setErroMl(e.message)
+          setResultadoMl(null)
+        }
+      })
+      .finally(() => {
+        if (!cancelado) setCarregandoMl(false)
       })
 
     return () => {
@@ -87,7 +109,13 @@ export default function App() {
         <ParametrosSelector dados={dados} selecao={selecao} setSelecao={setSelecao} parametro={parametro} />
         <DxfUpload onFileSelected={handleDxfSelecionado} geometria={geometria} />
         {erro && <div className="card card--erro">{erro}</div>}
-        <ResultadoEstimativa resultado={resultado} carregando={carregando} />
+        <ResultadoEstimativa
+          resultado={resultado}
+          resultadoMl={resultadoMl}
+          erroMl={erroMl}
+          carregando={carregando}
+          carregandoMl={carregandoMl}
+        />
       </main>
     </div>
   )

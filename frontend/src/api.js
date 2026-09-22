@@ -27,3 +27,12 @@ export async function calcularEstimativa({ material, espessuraDisplay, potencia,
   })
   return tratarResposta(resp)
 }
+
+export async function calcularEstimativaMl({ material, espessuraDisplay, potencia, gas, geometria }) {
+  const resp = await fetch(`${API_URL}/api/estimativa/ml`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ material, espessuraDisplay, potencia, gas, geometria }),
+  })
+  return tratarResposta(resp)
+}

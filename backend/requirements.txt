@@ -2,3 +2,7 @@ fastapi
 uvicorn[standard]
 python-multipart
 ezdxf
+pandas
+openpyxl
+scikit-learn
+joblib
