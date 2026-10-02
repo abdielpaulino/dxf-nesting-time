@@ -2,7 +2,7 @@
 
 App **React + Vite (front-end)** com **FastAPI (back-end)** para estimar o tempo de corte a laser com base em parâmetros de máquina (material, espessura, potência, gás) e em um desenho técnico **DXF**.
 
-> Estágio atual: front-end e back-end integrados. O back-end lê o `.dxf` de verdade (via `ezdxf`) e calcula o tempo com uma fórmula a partir do perímetro e do número de furos. A troca dessa fórmula por um **modelo de Machine Learning** treinado com dados reais de corte é o próximo passo.
+> Estágio atual: front-end e back-end integrados. O back-end lê o `.dxf` de verdade (via `ezdxf`), calcula o tempo com a fórmula fixa e também com **modelos de regressão** treinados em `files/dataset.xlsx`. O benchmark dos modelos (fórmula fixa, linear simples, linear múltipla e polinomial múltipla) está em `main.ipynb` e `ml.py`.
 
 ---
 
@@ -43,9 +43,54 @@ O script lê `files/dataset.xlsx`, extrai o número de furos de cada desenho em 
 
 ---
 
+## 📓 Análise e modelagem: qual arquivo usar
+
+| Arquivo | O que é | Papel |
+| --- | --- | --- |
+| `main.ipynb` | Notebook completo: limpeza, split, EDA inteira (missing, outliers, correlações, leakage, drift), os 4 modelos, gráficos de correlação e de erro | **Fonte principal** |
+| `ml.py` | Script do pipeline sem a EDA: limpeza, split, os 4 modelos (uma função de treino por modelo), validação cruzada, teste e 4 gráficos de erro em `figuras/` | Rodar tudo de uma vez e ver o consolidado |
+
+O `ml.py` foi escrito a partir do `main.ipynb` e **não é sincronizado automaticamente**: se o notebook mudar, o script precisa ser atualizado.
+
+### Pipeline (segue as Aulas 3 e 6 do Dr. Rodrigo Ramos Silva)
+
+1. **Coleta e limpeza mínima:** duplicatas exatas, tipos e unidades, valores impossíveis → `NaN`; sem imputar nem remover outliers.
+2. **Split por desenho** (`Plano Desenho`): 80% treino e 20% teste, sem repetir desenho entre os dois. O teste só é aberto no final.
+3. **EDA somente no treino:** distribuições, valores faltando, outliers, correlações, leakage e drift.
+4. **Modelagem:** validação cruzada por desenho (5 folds) no treino e teste aberto uma única vez.
+
+### Modelos do benchmark
+
+| Modelo | Variáveis |
+| --- | --- |
+| Fórmula fixa (referência) | `perímetro ÷ velocidade`, sem treino |
+| Regressão linear simples | `tempo_teorico_min` |
+| Regressão linear múltipla | 9 numéricas padronizadas + Material e Gás (one-hot) |
+| Regressão polinomial múltipla (grau 2) | as mesmas, com quadrados e interações |
+
+Principais resultados (erro médio absoluto, em minutos): a fórmula fixa erra **0,81** na validação cruzada (0,77 no teste) e os modelos treinados **~0,17** (0,166 no teste), uma redução de cerca de 79%. Os três modelos treinados ficam praticamente iguais entre si; o ganho vem do tempo teórico calibrado. O erro que sobra está nas peças pequenas.
+
+> Nota: o notebook e o `ml.py` usam só os parâmetros de corte e o perímetro. O back-end (`train_model.py` e `/api/estimativa/ml`) ainda inclui o **número de furos** como feature.
+
+```bash
+backend/.venv/bin/python ml.py              # salva os gráficos em figuras/
+backend/.venv/bin/python ml.py --mostrar    # também abre as janelas dos gráficos
+```
+
+Os gráficos usam `matplotlib` (instale no `.venv`: `uv pip install --python backend/.venv/bin/python matplotlib`).
+
+---
+
 ## 📁 Estrutura do projeto
 
 ```
+main.ipynb                         # análise completa: limpeza, split, EDA e modelos (fonte principal)
+ml.py                              # script do pipeline e do benchmark (sem EDA)
+figuras/                           # gráficos de correlação e de erro gerados pelo notebook e pelo ml.py
+Nesting_Time_Estimator.pptx        # apresentação do trabalho
+documentacao-aula/                 # material do professor (Aulas 3 e 6 e guias)
+files/                             # dataset.xlsx, tabela de parâmetros, desenhos DXF e relatórios de perímetro
+
 backend/
 ├── main.py                        # API FastAPI (rotas /api/parametros, /api/dxf/analisar, /api/estimativa, /api/estimativa/ml)
 ├── dxf_analyzer.py                # leitura do .dxf com ezdxf (perímetro, furos, layers, peças)
@@ -101,6 +146,7 @@ O front assume o back-end em `http://localhost:8000` (configurável via `VITE_AP
 - [FastAPI](https://fastapi.tiangolo.com/) + [Uvicorn](https://www.uvicorn.org/) — back-end
 - [ezdxf](https://ezdxf.readthedocs.io/) — leitura e processamento dos arquivos `.dxf`
 - [scikit-learn](https://scikit-learn.org/) — regressão linear simples, múltipla e polinomial para estimativa de tempo de corte
+- [matplotlib](https://matplotlib.org/) + [SciPy](https://scipy.org/) — gráficos e testes estatísticos (EDA) em `main.ipynb` e `ml.py`
 - [pandas](https://pandas.pydata.org/) + [openpyxl](https://openpyxl.readthedocs.io/) — leitura de `files/dataset.xlsx` para treino
 
 ---
