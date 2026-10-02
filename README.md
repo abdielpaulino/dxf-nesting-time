@@ -26,9 +26,12 @@ O cálculo roda inteiramente no **back-end (Python)**, não no navegador:
 
 1. O front envia o `.dxf` para `POST /api/dxf/analisar`, que usa `ezdxf` para extrair o perímetro total (mm) e o número de furos (círculos), percorrendo inclusive blocos (`INSERT`) aninhados.
 2. O front envia os parâmetros selecionados + a geometria extraída para `POST /api/estimativa`, que busca a linha correspondente em `parametros_corte.json` e calcula o tempo de corte + perfuração com uma fórmula fixa (`comprimento / velocidade_corte` + `furos × tempo_de_perfuração`).
-3. Existe também `POST /api/estimativa/ml`, com o mesmo payload de entrada, que usa um modelo **Random Forest** treinado em `files/dataset.xlsx` (176 mil linhas: 406 combinações de parâmetros × 435 desenhos DXF reais, com tempo de corte medido) para prever o tempo total diretamente a partir dos parâmetros de corte + perímetro + número de furos.
+3. Existe também `POST /api/estimativa/ml`, com o mesmo payload de entrada, que roda três modelos de regressão treinados em `files/dataset.xlsx` (176 mil linhas: 406 combinações de parâmetros × 435 desenhos DXF reais, com tempo de corte medido) e devolve a previsão de cada um em `modelos[]`, para comparação lado a lado:
+   - **Regressão Linear Simples**: só o perímetro como feature.
+   - **Regressão Linear Múltipla**: parâmetros de corte (one-hot nas categóricas) + perímetro + número de furos.
+   - **Regressão Polinomial Múltipla (grau 2)**: as mesmas features, com quadrados e interações nas colunas numéricas.
 
-### Treinando o modelo de Random Forest
+### Treinando os modelos (benchmark)
 
 ```bash
 cd backend
@@ -36,7 +39,7 @@ cd backend
 .venv/bin/python train_model.py
 ```
 
-O script lê `files/dataset.xlsx`, extrai o número de furos de cada desenho em `files/drawings-dxf/` (via `dxf_analyzer.py`), treina um `RandomForestRegressor` sobre `Tempo Real Minutos`, imprime as métricas (MAE, RMSE, R²) comparando com a fórmula fixa atual, e salva o modelo em `backend/model/random_forest_tempo.joblib` (não versionado — precisa ser gerado localmente). Sem esse arquivo, `/api/estimativa/ml` responde `503`.
+O script lê `files/dataset.xlsx`, extrai o número de furos de cada desenho em `files/drawings-dxf/` (via `dxf_analyzer.py`), treina os três modelos sobre `Tempo Real Minutos` com o mesmo split treino/teste (80/20), imprime uma tabela de benchmark (MAE, RMSE, R², tempo de treino) comparando com a fórmula fixa atual, e salva cada modelo em `backend/model/<id>.joblib` e as métricas em `backend/model/benchmark.json` (não versionados — precisam ser gerados localmente). Sem os modelos, `/api/estimativa/ml` responde `503`.
 
 ---
 
@@ -46,8 +49,8 @@ O script lê `files/dataset.xlsx`, extrai o número de furos de cada desenho em 
 backend/
 ├── main.py                        # API FastAPI (rotas /api/parametros, /api/dxf/analisar, /api/estimativa, /api/estimativa/ml)
 ├── dxf_analyzer.py                # leitura do .dxf com ezdxf (perímetro, furos, layers, peças)
-├── train_model.py                 # treina o Random Forest a partir de files/dataset.xlsx
-├── model/                         # modelo treinado (gerado localmente, não versionado)
+├── train_model.py                 # treina e compara os modelos de regressão (benchmark)
+├── model/                         # modelos treinados + benchmark.json (gerados localmente, não versionados)
 └── requirements.txt
 
 frontend/
@@ -97,7 +100,7 @@ O front assume o back-end em `http://localhost:8000` (configurável via `VITE_AP
 - CSS puro (sem framework)
 - [FastAPI](https://fastapi.tiangolo.com/) + [Uvicorn](https://www.uvicorn.org/) — back-end
 - [ezdxf](https://ezdxf.readthedocs.io/) — leitura e processamento dos arquivos `.dxf`
-- [scikit-learn](https://scikit-learn.org/) — Random Forest para estimativa de tempo de corte
+- [scikit-learn](https://scikit-learn.org/) — regressão linear simples, múltipla e polinomial para estimativa de tempo de corte
 - [pandas](https://pandas.pydata.org/) + [openpyxl](https://openpyxl.readthedocs.io/) — leitura de `files/dataset.xlsx` para treino
 
 ---

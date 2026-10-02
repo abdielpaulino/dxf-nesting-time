@@ -17,38 +17,35 @@ export default function ResultadoEstimativa({ resultado, resultadoMl, erroMl, ca
     )
   }
 
-  const diffMin = resultadoMl ? resultadoMl.tempoTotalMin - resultado.tempoTotalMin : null
-
   return (
     <div className="card">
       <h2>3. Estimativa</h2>
 
-      <div className="grid-2">
+      <div className="grid-4">
         <div>
           <div className="result-label">Fórmula atual</div>
           <div className="result-value">{resultado.tempoTotalFormatado}</div>
         </div>
 
-        <div>
-          <div className="result-label">Random Forest (IA)</div>
-          {carregandoMl && <div className="result-value text-dim">Calculando...</div>}
-          {!carregandoMl && resultadoMl && (
-            <div className="result-value result-value--accent">{resultadoMl.tempoTotalFormatado}</div>
-          )}
-          {!carregandoMl && !resultadoMl && (
-            <p className="text-dim">
-              {erroMl || 'Indisponível.'}
-            </p>
-          )}
-        </div>
-      </div>
+        {carregandoMl && <div className="result-value text-dim">Calculando...</div>}
 
-      {resultadoMl && (
-        <p className="hint">
-          Diferença IA − fórmula: {diffMin >= 0 ? '+' : ''}
-          {diffMin.toFixed(2)} min
-        </p>
-      )}
+        {!carregandoMl && !resultadoMl && <p className="text-dim">{erroMl || 'Modelos de IA indisponíveis.'}</p>}
+
+        {!carregandoMl &&
+          resultadoMl?.modelos.map((modelo) => {
+            const diffMin = modelo.tempoTotalMin - resultado.tempoTotalMin
+            return (
+              <div key={modelo.id}>
+                <div className="result-label">{modelo.nome}</div>
+                <div className="result-value result-value--accent">{modelo.tempoTotalFormatado}</div>
+                <p className="hint">
+                  vs. fórmula: {diffMin >= 0 ? '+' : ''}
+                  {diffMin.toFixed(2)} min
+                </p>
+              </div>
+            )
+          })}
+      </div>
     </div>
   )
 }

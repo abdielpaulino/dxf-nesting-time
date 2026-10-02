@@ -11,16 +11,22 @@ from dxf_analyzer import analisar_dxf_bytes
 
 BASE_DIR = Path(__file__).resolve().parent
 PARAMETROS_PATH = BASE_DIR.parent / "frontend" / "src" / "data" / "parametros_corte.json"
-MODELO_ML_PATH = BASE_DIR / "model" / "random_forest_tempo.joblib"
+MODEL_DIR = BASE_DIR / "model"
+MODELOS_ML_NOMES = {
+    "regressao_simples": "Regressão Linear Simples",
+    "regressao_multipla": "Regressão Linear Múltipla",
+    "regressao_polinomial_multipla": "Regressão Polinomial Múltipla",
+}
 
 TEMPO_PERFURACAO_S = 1.5
 
 app = FastAPI(title="Estimador de Tempo de Corte a Laser - API")
 
-try:
-    modelo_ml = joblib.load(MODELO_ML_PATH)
-except FileNotFoundError:
-    modelo_ml = None
+modelos_ml = {
+    chave: joblib.load(MODEL_DIR / f"{chave}.joblib")
+    for chave in MODELOS_ML_NOMES
+    if (MODEL_DIR / f"{chave}.joblib").exists()
+}
 
 app.add_middleware(
     CORSMiddleware,
@@ -107,10 +113,10 @@ def calcular_estimativa(payload: EstimativaIn):
 
 @app.post("/api/estimativa/ml")
 def calcular_estimativa_ml(payload: EstimativaIn):
-    if modelo_ml is None:
+    if not modelos_ml:
         raise HTTPException(
             status_code=503,
-            detail="Modelo de ML não encontrado. Rode `python train_model.py` no backend para treiná-lo.",
+            detail="Modelos de ML não encontrados. Rode `python train_model.py` no backend para treiná-lo.",
         )
 
     parametro = next(
@@ -148,13 +154,22 @@ def calcular_estimativa_ml(payload: EstimativaIn):
         ]
     )
 
-    tempo_peca_min = float(modelo_ml.predict(entrada)[0])
-    tempo_total_min = tempo_peca_min * geometria.quantidade
+    previsoes = []
+    for chave, modelo in modelos_ml.items():
+        # Modelos lineares podem extrapolar para tempo negativo em peças muito pequenas.
+        tempo_peca_min = max(float(modelo.predict(entrada)[0]), 0.0)
+        tempo_total_min = tempo_peca_min * geometria.quantidade
+        previsoes.append(
+            {
+                "id": chave,
+                "nome": MODELOS_ML_NOMES[chave],
+                "tempoTotalMin": round(tempo_total_min, 4),
+                "tempoTotalFormatado": formatar_min(tempo_total_min),
+            }
+        )
 
     return {
         "parametro": parametro,
         "geometria": geometria.model_dump(),
-        "tempoTotalMin": round(tempo_total_min, 4),
-        "tempoTotalFormatado": formatar_min(tempo_total_min),
-        "modelo": "RandomForestRegressor",
+        "modelos": previsoes,
     }
