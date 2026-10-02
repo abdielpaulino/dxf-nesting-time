@@ -1,0 +1,284 @@
+FALA DO GABRIEL: SLIDES 7 A 15
+Nesting Time Estimator
+Tempo estimado: cerca de 11 a 13 minutos (mais ou menos 1 min e 20 s por slide)
+
+Dica: o texto é um roteiro, não precisa ler palavra por palavra. As frases
+entre [colchetes] são indicações de gesto ou de onde apontar no slide.
+
+==============================================================================
+SLIDE 7: O pipeline de dados que seguimos
+==============================================================================
+
+[Transição, recebendo do Abdiel]
+Obrigado, Abdiel. Agora que a gente já sabe o que tem na base, vou mostrar
+como ela foi tratada antes de chegar em qualquer modelo.
+
+Esse diagrama é o pipeline que o professor apresentou na Aula 3, o "caminho
+seguro" de um projeto de Machine Learning. Do lado de cada etapa a gente
+marcou em que ponto o nosso projeto está.
+
+[Apontar para as etapas 1, 2, 3 e 5]
+Concluímos a coleta, que gerou as 176 mil linhas; a limpeza mínima; o split
+inicial entre treino e teste; e a EDA, a análise exploratória, feita só no
+treino.
+
+[Apontar para as etapas 6 e 7]
+Duas etapas estão parciais: o pré-processamento e a criação de features. Já
+têm uma primeira versão dentro do pipeline, mas ainda vão ser refinadas depois
+da EDA. Os detalhes de cada uma aparecem mais adiante.
+
+[Apontar para as etapas 4 e 8]
+Ficaram como próximo passo a checagem de esquema, que valida colunas, faixas
+e categorias, e a seleção de features com VIF, Lasso e permutation importance.
+
+O ponto principal desse slide está na frase do rodapé: pré-processamento,
+criação e seleção de features são sempre ajustados no treino. O teste não
+participa de nenhuma dessas decisões.
+
+==============================================================================
+SLIDE 8: Limpeza mínima e o "teste sagrado"
+==============================================================================
+
+Começando pela limpeza. A Aula 3 fala em limpeza "mínima e determinística":
+só o que é obviamente errado, sem imputar valores e sem tirar outliers nessa
+fase.
+
+[Apontar para os zeros]
+A nossa base veio limpa: zero duplicatas, zero valores impossíveis e nenhuma
+linha descartada. O único ajuste foi de tipo e unidade. Por exemplo, a
+espessura vinha como texto, "3,18 mm (1/8 de polegada)", e virou o número
+3,18. Mesmo com a base limpa, essas regras ficam no pipeline para quando
+chegarem dados novos.
+
+[Apontar para a barra do split]
+A decisão mais importante desse slide é o split. A gente não separou as
+linhas de forma aleatória; separou por desenho. São 348 desenhos no treino,
+com 141 mil linhas, e 87 desenhos no teste, com 35 mil linhas.
+
+O motivo é que cada desenho aparece 406 vezes na base, uma para cada
+combinação de parâmetros. Num sorteio linha a linha, o mesmo desenho cairia
+no treino e no teste, o modelo "decoraria" a peça e a métrica ficaria
+otimista. A Aula 3 fala exatamente isso: em split por grupo, cada ID fica em
+um único conjunto.
+
+E a regra de ouro do professor: o teste não decide nada. Ele não influencia
+escala, seleção de variáveis nem ajuste de hiperparâmetros. Para comparar
+modelos dentro do treino, usamos validação cruzada também por desenho, o
+GroupKFold com 5 partes.
+
+==============================================================================
+SLIDE 9: EDA, entender os dados antes de modelar
+==============================================================================
+
+Com o teste separado, partimos para a EDA. O professor define a EDA como "a
+fase de diagnóstico do dataset, que gera insights acionáveis". Ou seja, não é
+só fazer gráfico: cada coisa que a gente olha tem que virar uma decisão.
+
+[Percorrer os cards]
+Olhamos sete pontos: como cada coluna se distribui; se tem valor faltando;
+se os outliers são erro ou dado legítimo; o que se correlaciona com o alvo e
+entre si; se alguma coluna entrega a resposta, que é o leakage; se os dados
+mudam entre grupos, que é o drift; e, por fim, que hipóteses de features e
+transformações saem disso tudo.
+
+[Apontar para o quadro "Por que só no treino?"]
+E por que só no treino? Se o teste entrasse na exploração, a escolha dos
+limites de outlier e das features seria influenciada por ele, e o resultado
+final ficaria otimista. O teste fica "cego" até o fim.
+
+Todo esse processo está no notebook do projeto, o main.ipynb. Nos próximos
+slides eu mostro os achados principais.
+
+==============================================================================
+SLIDE 10: O alvo é muito assimétrico, e o log resolve
+==============================================================================
+
+O primeiro achado é sobre o alvo, o tempo real em minutos.
+
+[Apontar para o gráfico da esquerda]
+À esquerda está o histograma em minutos. Quase 100% das linhas caem na
+primeira faixa, de 0 a 20 minutos, e o resto é uma cauda longa que vai até
+307 minutos. A mediana é 0,35 minuto, mas o percentil 99 é 33,6 e o máximo é
+307,7. A assimetria é de 11,9, que é muito alta.
+
+[Apontar para o gráfico da direita]
+À direita está o mesmo dado em escala logarítmica. Vira um sino com uma
+cauda leve, e a assimetria cai de 11,9 para 1,3.
+
+A Aula 3 cita exatamente isso: transformações de log servem para deixar dados
+muito espalhados mais próximos de uma distribuição normal. A decisão é testar
+o modelo com o alvo em log.
+
+Outro achado: zero valores faltando no treino, então não existe decisão de
+imputação a tomar.
+
+==============================================================================
+SLIDE 11: Outliers, as peças grandes são legítimas
+==============================================================================
+
+Com uma cauda tão longa, a pergunta seguinte é: esses valores altos são erro
+ou são reais?
+
+[Apontar para a tabela]
+A gente calculou, só no treino, três limites possíveis de clipping no alvo.
+No percentil 99, que é 33,6 minutos, seria 1% das linhas, e a média do alvo
+cairia de 2,06 para 1,76. No 99,5, seria meio por cento das linhas. No 99,9,
+um décimo.
+
+[Apontar para o quadro da direita]
+Para decidir, olhamos a razão entre o tempo real e o teórico. No top 1% do
+alvo, que são 39 desenhos, essa razão fica entre 1,4 e 1,7 vez, bem estável.
+Ou seja, o tempo é alto porque o perímetro é grande, não porque o dado está
+errado.
+
+Nas demais linhas a mediana é de 2,7 vezes, e nas peças muito pequenas chega
+a 1.924 vezes. Isso acontece porque, nelas, o tempo fixo de entrada e saída
+do feixe domina o tempo total. Esse ponto volta mais tarde nos resultados.
+
+[Apontar para "Decisão"]
+A decisão foi não remover essas linhas, porque são peças grandes de verdade.
+Se for preciso clipar, usamos o limite calculado no treino, o p99,5 de 49,5
+minutos, e avaliamos sempre sem clipar. Lembrando a Aula 3: clipar não apaga
+o dado, só limita o valor máximo.
+
+==============================================================================
+SLIDE 12: Quem se relaciona com o tempo real
+==============================================================================
+
+Agora as correlações. O gráfico mostra a correlação de cada coluna numérica
+com o tempo real: em azul o Pearson, que mede relação linear, e em laranja o
+Spearman, que mede relação por ranking, mesmo que não seja linear.
+
+[Apontar para a primeira barra]
+O tempo teórico, perímetro dividido por velocidade, domina: Pearson de 0,999
+e Spearman de 0,89. Nenhuma outra coluna chega perto. O perímetro sozinho
+fica em 0,60.
+
+[Apontar para a velocidade]
+A velocidade é interessante. No Pearson ela quase some, com −0,12, mas no
+Spearman vai para −0,52. Isso mostra que a relação existe, mas é inversa e
+não linear: o tempo é proporcional a 1 sobre a velocidade. Uma reta não
+captura isso, e é por isso que criar a feature tempo teórico faz tanta
+diferença.
+
+[Apontar para o quadro "Colinearidade"]
+O terceiro ponto é a colinearidade. Os parâmetros da máquina se
+correlacionam entre si: pressão e foco têm −0,85. A Aula 6 cita a ausência de
+multicolinearidade severa como uma suposição da regressão múltipla, então
+isso precisa ser tratado.
+
+Um detalhe: o perímetro tem correlação zero com os parâmetros, porque cada
+desenho foi cortado com todas as combinações. A matriz completa está no
+apêndice, se alguém quiser ver.
+
+==============================================================================
+SLIDE 13: Leakage e drift, o que não pode entrar
+==============================================================================
+
+Esse slide trata do que não pode entrar no modelo. O professor define
+leakage como informação do futuro ou do teste que vaza para o treino e faz o
+modelo parecer melhor do que é.
+
+[Percorrer a tabela de cima para baixo]
+O tempo real em segundos é leakage: é o próprio alvo em outra unidade. A
+diferença de tempo também, porque é o real menos o estimado, ou seja, contém
+a resposta.
+
+O tempo estimado é redundante, porque é só a fórmula. Tipo de bocal é função
+do gás, e tipo de acabamento é função de material mais gás. Se entrassem,
+só repetiriam informação e aumentariam a colinearidade.
+
+[Apontar para a linha verde]
+Já o tempo_teorico_min está liberado, porque dá para calcular antes do corte,
+a partir do DXF e da tabela de parâmetros. É exatamente o que a nossa API faz.
+
+[Apontar para o quadro de drift]
+Sobre o drift: como a base não tem coluna de data, não existe drift
+temporal. Então comparamos os grupos de desenhos da validação cruzada com o
+teste KS. O valor máximo foi 0,14 no perímetro e 0,04 no alvo. Ou seja, um
+desenho novo não é muito diferente dos que o modelo já viu.
+
+==============================================================================
+SLIDE 14: O que a EDA nos faz decidir
+==============================================================================
+
+Para fechar a EDA: o professor diz que ela deve terminar em uma lista de
+insights e ações. Então, de um lado está o que encontramos e, do outro, o que
+decidimos.
+
+[Ler linha por linha, apontando]
+O alvo tem assimetria de 11,9, que cai para 1,3 em log: vamos testar o alvo
+em log.
+
+O tempo é praticamente perímetro sobre velocidade, com correlação de 0,999:
+criamos a feature tempo_teorico_min.
+
+Bocal e acabamento são função de material e gás: usamos só material e gás,
+com one-hot.
+
+Os parâmetros são correlacionados entre si: usar regularização, Ridge e
+Lasso, e checar o VIF.
+
+O tempo real é cerca de 1,5 vez o teórico mais um tempo fixo por peça: isso
+pede interações do tempo teórico com gás e material.
+
+E as colunas de tempo derivadas do alvo ficam fora do modelo.
+
+A ideia aqui é que a gente não escolheu modelo nem feature no escuro: cada
+decisão da modelagem tem um motivo que veio dos dados.
+
+==============================================================================
+SLIDE 15: É um problema de regressão
+==============================================================================
+
+Antes de ir para os modelos, falta responder que tipo de problema é esse.
+
+[Apontar para a tabela]
+Regressão prevê um valor numérico contínuo, como preço de uma casa,
+temperatura ou, no nosso caso, tempo de corte. Classificação prevê uma
+categoria, como spam ou não spam.
+
+O nosso alvo, o tempo real, é um número contínuo que vai de 0,002 até 307,7
+minutos. Então é regressão.
+
+[Apontar para "No nosso caso"]
+Isso traz algumas consequências práticas. Não existe balanceamento de
+classes, porque não há classes. Não existe estratificação; o nosso split é
+por grupo, por desenho. E as métricas são de erro numérico: MAE, RMSE e R²,
+no lugar de acurácia ou F1.
+
+Daria para transformar em classificação, por exemplo "esse corte leva mais
+ou menos de 5 minutos?". Só que isso jogaria informação fora, e o que o chão
+de fábrica precisa é uma estimativa em minutos.
+
+[Apontar para a citação]
+E o próprio professor, na Aula 6, cita como uso típico de regressão em
+manufatura prever o tempo de ciclo a partir dos ajustes de máquina, que é
+exatamente o nosso caso.
+
+[Transição para o próximo slide]
+Com isso definido, vamos ver quais modelos de regressão a gente testou e
+como eles se saíram.
+
+==============================================================================
+PERGUNTAS PROVÁVEIS (para ter a resposta pronta)
+==============================================================================
+
+P: Por que 80/20 e não 70/15/15, como o professor sugere para bases grandes?
+R: Porque a validação cruzada por desenho (GroupKFold, 5 partes) dentro do
+   treino faz o papel do conjunto de validação, sem gastar uma fatia extra
+   dos dados.
+
+P: Por que não tirar os outliers?
+R: Porque são peças grandes reais. A razão real/teórico delas é estável
+   (1,4 a 1,7x). Tirar essas linhas faria o modelo errar justamente nas
+   peças mais longas.
+
+P: O tempo teórico não é leakage, já que é quase o alvo?
+R: Não. Ele é calculado só com perímetro (do DXF) e velocidade (da tabela),
+   que são conhecidos antes do corte. Leakage é usar algo que só existe
+   depois do corte, como o tempo real em segundos.
+
+P: Se a velocidade tem Pearson tão baixo, por que ela importa?
+R: Porque a relação é inversa (tempo proporcional a 1/velocidade). O Pearson
+   só mede relação linear; o Spearman de −0,52 mostra que ela é forte.
